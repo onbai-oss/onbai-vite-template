@@ -10,4 +10,5 @@
         "*.css": "postcss",
     },
     "i18n-ally.sourceLanguage": "en",
+    "svg.preview.background": "transparent",
 }
