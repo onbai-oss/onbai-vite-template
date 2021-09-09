@@ -1,4 +1,8 @@
 # Onbai Vite Template
+
+![GitHub](https://img.shields.io/github/license/onbai-oss/onbai-vite-template?style=for-the-badge) ![GitHub package.json version](https://img.shields.io/github/package-json/v/onbai-oss/onbai-vite-template?style=for-the-badge) ![Lines of code](https://img.shields.io/tokei/lines/github/onbai-oss/onbai-vite-template?style=for-the-badge)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onbai-oss/onbai-vite-template?style=for-the-badge) ![Relative date](https://img.shields.io/date/1629018000?label=Created&style=for-the-badge)
+
 ## Features
 
 -   ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness

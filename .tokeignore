@@ -1,0 +1,17 @@
+/stories
+/.vscode
+/.storybook
+/public
+/locales
+
+next-env.d.ts
+tailwind.config.js
+postcss.config.js
+
+package.json
+tsconfig.json
+
+*.lock
+*-lock.json
+*-lock.yaml
+*.md
