@@ -19,9 +19,10 @@
   <div id="app"></div>
   <script>
     (function() {
-      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
-      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+      const setting = localStorage.getItem('vueuse-color-scheme')
+      if (!setting)
+        localStorage.setItem('vueuse-color-scheme', '')
+      if (setting === 'dark')
         document.documentElement.classList.toggle('dark', true)
     })()
   </script>

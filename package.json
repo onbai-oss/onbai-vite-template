@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.1.0",
   "scripts": {
-    "dev": "vite --port 3333 --open",
+    "dev": "vite --port 3333 --host --open",
     "build": "cross-env NODE_ENV=production vite-ssg build",
     "preview": "vite preview",
     "preview-https": "serve dist"
