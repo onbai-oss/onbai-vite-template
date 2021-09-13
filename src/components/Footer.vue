@@ -42,5 +42,13 @@ const toggleLocales = () => {
     >
       <carbon-dicom-overlay />
     </router-link>
+
+    <router-link
+      class="icon-btn mx-2"
+      to="/ui"
+      title="UI"
+    >
+      <carbon-color-palette />
+    </router-link>
   </footer>
 </template>
