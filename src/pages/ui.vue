@@ -1,7 +1,16 @@
 <template>
-  <section>
+  <section class="*wrapper p-4">
     <div>
-      UI
+      Button:
+    </div>
+    <div>
+      Typography:
+    </div>
+    <div>
+      Form:
+    </div>
+    <div>
+      Card:
     </div>
   </section>
 </template>

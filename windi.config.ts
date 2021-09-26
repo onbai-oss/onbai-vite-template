@@ -10,6 +10,7 @@ export default defineConfig({
   alias: {
     hstack: 'flex items-center',
     vstack: 'flex flex-col',
+    wrapper: 'container mx-auto',
   },
   plugins: [typography(
     {

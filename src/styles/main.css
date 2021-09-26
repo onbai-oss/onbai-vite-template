@@ -1,6 +1,6 @@
+@import './variables.css';
 @import './markdown.css';
 @import './loading.css';
-
 html,
 body,
 #app {
@@ -14,19 +14,11 @@ body,
 
 html.dark {
     background: #1f2937;
+    a {
+        @apply text-light-200;
+    }
 }
 
-
-.btn {
-    @apply px-4 py-1 rounded inline-block
-    bg-teal-500 text-white cursor-pointer
-    hover:bg-teal-600
-    disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50;
-}
-
-.icon-btn {
-    @apply inline-block cursor-pointer select-none
-    opacity-75 transition duration-200 ease-in-out
-    hover:opacity-100 hover:text-teal-600;
-    font-size: 0.9em;
+.o-app-height {
+    min-height: var(--min-app-height);
 }
