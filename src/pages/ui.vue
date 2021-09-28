@@ -1,16 +1,34 @@
 <template>
   <section class="*wrapper p-4">
     <div>
-      Button:
+      <a href="#button">#Button</a>
+      <div>
+      </div>
     </div>
     <div>
-      Typography:
+      <a href="#button">#Layout</a>
+    </div>
+
+    <div>
+      <a href="#button">#Form</a>
     </div>
     <div>
-      Form:
+      <a href="#button">#Navigation</a>
     </div>
     <div>
-      Card:
+      <a href="#button">#Feedback</a>
+    </div>
+    <div>
+      <a href="#button">#Card</a>
+    </div>
+    <div>
+      <a href="#button">#Typography</a>
+    </div>
+    <div>
+      <a href="#button">#Color</a>
+    </div>
+    <div>
+      <a href="#button">#Others</a>
     </div>
   </section>
 </template>
