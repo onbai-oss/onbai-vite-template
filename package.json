@@ -1,7 +1,7 @@
 {
     "name": "onbai-vite-template",
     "private": false,
-    "version": "0.1.0",
+    "version": "0.1.1",
     "scripts": {
         "dev": "vite --port 3333 --host --open",
         "build": "cross-env NODE_ENV=production vite-ssg build",
