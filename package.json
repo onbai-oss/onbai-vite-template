@@ -9,7 +9,7 @@
         "preview-https": "serve dist"
     },
     "dependencies": {
-        "@vueuse/core": "^6.7.1",
+        "@vueuse/core": "^6.7.3",
         "@vueuse/head": "^0.6.0",
         "nprogress": "^0.2.0",
         "pinia": "2.0.0-rc.14",
@@ -31,7 +31,7 @@
         "@vue/compiler-sfc": "^3.2.20",
         "@vue/server-renderer": "^3.2.20",
         "@windicss/plugin-icons": "^1.0.2",
-        "critters": "^0.0.10",
+        "critters": "^0.0.11",
         "cross-env": "^7.0.3",
         "eslint": "^8.0.1",
         "https-localhost": "^4.7.0",
