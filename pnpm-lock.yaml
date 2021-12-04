@@ -21,7 +21,7 @@ specifiers:
   markdown-it-link-attributes: ^3.0.0
   markdown-it-prism: ^2.2.1
   nprogress: ^0.2.0
-  pinia: 2.0.5
+  pinia: 2.0.6
   prism-theme-vars: ^0.2.2
   typescript: ^4.5.2
   unplugin-auto-import: ^0.5.1
@@ -44,7 +44,7 @@ dependencies:
   '@vueuse/core': 7.1.2_vue@3.2.23
   '@vueuse/head': 0.7.2_vue@3.2.23
   nprogress: 0.2.0
-  pinia: 2.0.5_typescript@4.5.2+vue@3.2.23
+  pinia: 2.0.6_typescript@4.5.2+vue@3.2.23
   prism-theme-vars: 0.2.2
   vue: 3.2.23
   vue-demi: 0.12.1_vue@3.2.23
@@ -1387,8 +1387,8 @@ packages:
       vue-i18n:
         optional: true
     dependencies:
-      '@intlify/message-compiler': 9.2.0-beta.22
-      '@intlify/shared': 9.2.0-beta.22
+      '@intlify/message-compiler': 9.2.0-beta.23
+      '@intlify/shared': 9.2.0-beta.23
       jsonc-eslint-parser: 1.4.1
       source-map: 0.6.1
       vue-i18n: 9.1.9_vue@3.2.23
@@ -1423,11 +1423,11 @@ packages:
       source-map: 0.6.1
     dev: false
 
-  /@intlify/message-compiler/9.2.0-beta.22:
-    resolution: {integrity: sha512-+Nx8IpKcXBQ7L+f6UWLQf/iReD7rotBkV4oxUX1rKMQgaJToYB1ovrPYNoNDd6aK4rEQ9sJoM5nd2+ENmCs7dA==}
+  /@intlify/message-compiler/9.2.0-beta.23:
+    resolution: {integrity: sha512-qmGN8k5yGGdZ5St8yg8U4Tg2K9Sc6h3BhWCdJKAqQVs5jnfZG+nMtsLVgnJUWkDvhjzyg7/rEOhHm2uJcu4vjw==}
     engines: {node: '>= 12'}
     dependencies:
-      '@intlify/shared': 9.2.0-beta.22
+      '@intlify/shared': 9.2.0-beta.23
       source-map: 0.6.1
     dev: true
 
@@ -1450,8 +1450,8 @@ packages:
     engines: {node: '>= 10'}
     dev: false
 
-  /@intlify/shared/9.2.0-beta.22:
-    resolution: {integrity: sha512-IyU9Trx1d5EZgAh6/3y0+efgko5xRw1iTwpM19qublZsTSnDSkHB8NnSyHVZrMARj+LgZgL7pKktsSO5os9k2A==}
+  /@intlify/shared/9.2.0-beta.23:
+    resolution: {integrity: sha512-3aELL2KTp1MWKGm2gIUKSagthgKzcK5hpQEFzOwkJ1SAthpTXR7BHeWGEaD+Lj+Pbiz3U8cspvp8s2lFWVbYxg==}
     engines: {node: '>= 12'}
     dev: true
 
@@ -1469,7 +1469,7 @@ packages:
         optional: true
     dependencies:
       '@intlify/bundle-utils': 2.1.0_vue-i18n@9.1.9
-      '@intlify/shared': 9.2.0-beta.22
+      '@intlify/shared': 9.2.0-beta.23
       '@rollup/pluginutils': 4.1.1
       debug: 4.3.2
       fast-glob: 3.2.7
@@ -2020,12 +2020,6 @@ packages:
 
   /acorn/7.4.1:
     resolution: {integrity: sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
-    dev: true
-
-  /acorn/8.5.0:
-    resolution: {integrity: sha512-yXbYeFy+jUuYd3/CDcg2NkIYE991XYX/bje7LmjJigUciaeO1JR4XxXgCIV1/Zc/dRuFEyw1L0pbA+qynJkW5Q==}
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
@@ -4224,7 +4218,7 @@ packages:
         optional: true
     dependencies:
       abab: 2.0.5
-      acorn: 8.5.0
+      acorn: 8.6.0
       acorn-globals: 6.0.0
       cssom: 0.5.0
       cssstyle: 2.3.0
@@ -4910,11 +4904,11 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pinia/2.0.5_typescript@4.5.2+vue@3.2.23:
-    resolution: {integrity: sha512-RmHlvdnHdMib0RNaJ3Yiurtydk7t6eAe0+nlJuzdh+TeE7l3inLy8uw3aJM8oWMUv7ndMvoDV0LYMnfwPKOwmQ==}
+  /pinia/2.0.6_typescript@4.5.2+vue@3.2.23:
+    resolution: {integrity: sha512-01mP4+KapIcTNSYLhQESy6GW0N8vY5wX3UqOwkC87e7DPjEusNJ8bENrKqdvZaRHbB2rDMOONeAbwMa3+n1/rw==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
-      typescript: ^4.5.2
+      typescript: '>=4.4.4'
       vue: ^2.6.14 || ^3.2.0
     peerDependenciesMeta:
       '@vue/composition-api':
