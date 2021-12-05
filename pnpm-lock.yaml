@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@antfu/eslint-config': 0.11.1
+  '@antfu/eslint-config': 0.12.0
   '@iconify/json': 1.1.438
   '@intlify/vite-plugin-vue-i18n': 3.2.1
   '@types/markdown-it-link-attributes': 3.0.1
@@ -52,7 +52,7 @@ dependencies:
   vue-router: 4.0.12_vue@3.2.23
 
 devDependencies:
-  '@antfu/eslint-config': 0.11.1_eslint@8.4.0+typescript@4.5.2
+  '@antfu/eslint-config': 0.12.0_eslint@8.4.0+typescript@4.5.2
   '@iconify/json': 1.1.438
   '@intlify/vite-plugin-vue-i18n': 3.2.1_vite@2.6.14+vue-i18n@9.1.9
   '@types/markdown-it-link-attributes': 3.0.1
@@ -84,8 +84,8 @@ devDependencies:
 
 packages:
 
-  /@antfu/eslint-config-basic/0.11.0_eslint@8.4.0:
-    resolution: {integrity: sha512-xImG3R2Q4+mnGBK0n4FEKVW3ceHodbTZP6O6LyBg0N1XsyeRxNZ2kIkAc2zoOPcxejfxN/eH8UoHaPtErw/Tzg==}
+  /@antfu/eslint-config-basic/0.12.0_eslint@8.4.0:
+    resolution: {integrity: sha512-lI8C6QwYobcdlFPc9PZhYJMt5bNkxQNzHT3bB4PXLTvBG04m/aQQ79bIO/yEDs6KWLLmVPkUUbrTyvd5wGVNBg==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
@@ -105,12 +105,12 @@ packages:
       - supports-color
     dev: true
 
-  /@antfu/eslint-config-react/0.11.0_eslint@8.4.0+typescript@4.5.2:
-    resolution: {integrity: sha512-fZllLH30ldJNe31f/vS4oX95bR3oak9YyrFLLhuACu5dO2t2+Da+Oy955eLfaJ4ZQeF03RLC3kJRnFPHxZHj6g==}
+  /@antfu/eslint-config-react/0.12.0_eslint@8.4.0+typescript@4.5.2:
+    resolution: {integrity: sha512-Ee8e9X1MKzc1p8RUPaYlr1KwpXSq0wHWRE8zGeWH64+dZLEL4swww4NXnPwZD5fXz/TX3ta0bbAjj5fCaT7S0w==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@antfu/eslint-config-ts': 0.11.0_eslint@8.4.0+typescript@4.5.2
+      '@antfu/eslint-config-ts': 0.12.0_eslint@8.4.0+typescript@4.5.2
       eslint: 8.4.0
       eslint-plugin-react: 7.27.1_eslint@8.4.0
     transitivePeerDependencies:
@@ -118,13 +118,13 @@ packages:
       - typescript
     dev: true
 
-  /@antfu/eslint-config-ts/0.11.0_eslint@8.4.0+typescript@4.5.2:
-    resolution: {integrity: sha512-Cz5+8JLYpLT4ad924Om5laakXFpJisCVMlIrnYjD4hQVyO4R1krJegWqtkO4zwDfDcLggwH+meDphpVmMmeTKw==}
+  /@antfu/eslint-config-ts/0.12.0_eslint@8.4.0+typescript@4.5.2:
+    resolution: {integrity: sha512-Yjm3xqG9z3J18dwmiWvxIslTudQiFzjgfXSwrA9h+JlwrgwCYMKJqQwg/Y0lSyOC8Op+P8COyyTz9wLCbKlf/g==}
     peerDependencies:
       eslint: '>=7.4.0'
       typescript: '>=3.9'
     dependencies:
-      '@antfu/eslint-config-basic': 0.11.0_eslint@8.4.0
+      '@antfu/eslint-config-basic': 0.12.0_eslint@8.4.0
       '@typescript-eslint/eslint-plugin': 5.5.0_b885794d89d00e0b80d68a1b7275fb2c
       '@typescript-eslint/parser': 5.5.0_eslint@8.4.0+typescript@4.5.2
       eslint: 8.4.0
@@ -133,12 +133,12 @@ packages:
       - supports-color
     dev: true
 
-  /@antfu/eslint-config-vue/0.11.1_eslint@8.4.0+typescript@4.5.2:
-    resolution: {integrity: sha512-nXUGL05Vn/eXlICrBoECTLSD+uLstXlsEDIjMlwROZlO7MyQ6G1/ojNAlCNKr7qvTQCDl+nsASQnGWKAmlug2Q==}
+  /@antfu/eslint-config-vue/0.12.0_eslint@8.4.0+typescript@4.5.2:
+    resolution: {integrity: sha512-PCBkI+H+FcbSQZ6H+bGWjDvYb/s4i38u6gJvx005reo9PEW4uHAj0bhbChFR+kY7qp5TpOq9V/J/wsR1wwqLUw==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@antfu/eslint-config-ts': 0.11.0_eslint@8.4.0+typescript@4.5.2
+      '@antfu/eslint-config-ts': 0.12.0_eslint@8.4.0+typescript@4.5.2
       eslint: 8.4.0
       eslint-plugin-vue: 8.1.1_eslint@8.4.0
     transitivePeerDependencies:
@@ -146,13 +146,13 @@ packages:
       - typescript
     dev: true
 
-  /@antfu/eslint-config/0.11.1_eslint@8.4.0+typescript@4.5.2:
-    resolution: {integrity: sha512-xDeD9bc7b4uOWjyqOXF5cIAA2RhSAzSvlBOYoiJio6I8iQVpRA46WdF5CEfwu/1EDiFcwi6MjdHc+gDEiIoAdw==}
+  /@antfu/eslint-config/0.12.0_eslint@8.4.0+typescript@4.5.2:
+    resolution: {integrity: sha512-bqHME8oHbLHAFwA4Ptuzvz/stpFAXpO6t/u18FjPWF5dX+UCdMR9yeO0JJBzdVprI/WleoKxG8YTWsO2TOsFXw==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@antfu/eslint-config-react': 0.11.0_eslint@8.4.0+typescript@4.5.2
-      '@antfu/eslint-config-vue': 0.11.1_eslint@8.4.0+typescript@4.5.2
+      '@antfu/eslint-config-react': 0.12.0_eslint@8.4.0+typescript@4.5.2
+      '@antfu/eslint-config-vue': 0.12.0_eslint@8.4.0+typescript@4.5.2
       '@typescript-eslint/eslint-plugin': 5.5.0_b885794d89d00e0b80d68a1b7275fb2c
       '@typescript-eslint/parser': 5.5.0_eslint@8.4.0+typescript@4.5.2
       eslint: 8.4.0
