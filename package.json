@@ -21,7 +21,7 @@
     },
     "devDependencies": {
         "@antfu/eslint-config": "0.12.1",
-        "@iconify/json": "1.1.438",
+        "@iconify/json": "1.1.439",
         "@intlify/vite-plugin-vue-i18n": "3.2.1",
         "@types/markdown-it-link-attributes": "3.0.1",
         "@types/nprogress": "0.2.0",
