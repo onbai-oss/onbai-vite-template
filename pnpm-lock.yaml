@@ -25,7 +25,7 @@ specifiers:
   prism-theme-vars: 0.2.2
   typescript: 4.5.4
   unplugin-auto-import: 0.5.10
-  unplugin-icons: 0.12.23
+  unplugin-icons: 0.13.0
   unplugin-vue-components: 0.17.11
   vite: 2.7.10
   vite-plugin-md: 0.11.7
@@ -71,7 +71,7 @@ devDependencies:
   markdown-it-prism: 2.2.1
   typescript: 4.5.4
   unplugin-auto-import: 0.5.10_@vueuse+core@7.3.0+vite@2.7.10
-  unplugin-icons: 0.12.23_4179ca639e6b0d52409fd7ec9bed740a
+  unplugin-icons: 0.13.0_4179ca639e6b0d52409fd7ec9bed740a
   unplugin-vue-components: 0.17.11_vite@2.7.10+vue@3.2.24
   vite: 2.7.10
   vite-plugin-md: 0.11.7_vite@2.7.10
@@ -1379,8 +1379,8 @@ packages:
       vue-i18n:
         optional: true
     dependencies:
-      '@intlify/message-compiler': 9.2.0-beta.26
-      '@intlify/shared': 9.2.0-beta.26
+      '@intlify/message-compiler': 9.2.0-beta.28
+      '@intlify/shared': 9.2.0-beta.28
       jsonc-eslint-parser: 1.4.1
       source-map: 0.6.1
       vue-i18n: 9.1.9_vue@3.2.24
@@ -1415,11 +1415,11 @@ packages:
       source-map: 0.6.1
     dev: false
 
-  /@intlify/message-compiler/9.2.0-beta.26:
-    resolution: {integrity: sha512-qtDgHCMqrXNTekKXGzm0Dm6r3+/X7/jFXP+E07hx+PJbPMv7DzK1iU8h5LlAMQ1/jr2UIRBgXvR5wh35OKoGrA==}
+  /@intlify/message-compiler/9.2.0-beta.28:
+    resolution: {integrity: sha512-NBH9fZyitN2cijGt8bmU1W7ZPdhKbgW01L1RxJKFJW0cRaCmknJq63Aif1Q6xcxKt9ZhPbvIKHgPGzg1nWMfeA==}
     engines: {node: '>= 12'}
     dependencies:
-      '@intlify/shared': 9.2.0-beta.26
+      '@intlify/shared': 9.2.0-beta.28
       source-map: 0.6.1
     dev: true
 
@@ -1442,8 +1442,8 @@ packages:
     engines: {node: '>= 10'}
     dev: false
 
-  /@intlify/shared/9.2.0-beta.26:
-    resolution: {integrity: sha512-MjUlkjNThqkqy8yXUcFKBiW/hIfqAn5cP3Vd0b4wdOHS8rPCEbvSbAnF08uiZDkVv8gTcsLyymX21GaU6oYyyQ==}
+  /@intlify/shared/9.2.0-beta.28:
+    resolution: {integrity: sha512-JBMcoj1D4kSAma7Vb0+d8z6lPLIn7hIdZJPxbU8bgeMMniwKLoIS/jGlEfrZihsB5+otckPeQp203z8skwVS0w==}
     engines: {node: '>= 12'}
     dev: true
 
@@ -1461,7 +1461,7 @@ packages:
         optional: true
     dependencies:
       '@intlify/bundle-utils': 2.2.0_vue-i18n@9.1.9
-      '@intlify/shared': 9.2.0-beta.26
+      '@intlify/shared': 9.2.0-beta.28
       '@rollup/pluginutils': 4.1.1
       debug: 4.3.3
       fast-glob: 3.2.7
@@ -4459,10 +4459,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /kolorist/1.5.0:
-    resolution: {integrity: sha512-pPobydIHK884YBtkS/tWSZXpSAEpcMbilyun3KL37ot935qL2HNKm/tI45i/Rd+MxdIWEhm7/LmUQzWZYK+Qhg==}
-    dev: true
-
   /kolorist/1.5.1:
     resolution: {integrity: sha512-lxpCM3HTvquGxKGzHeknB/sUjuVoUElLlfYnXZT73K8geR9jQbroGlSCFBax9/0mpGoD3kzcMLnOlGQPJJNyqQ==}
     dev: true
@@ -6011,8 +6007,8 @@ packages:
       - webpack
     dev: true
 
-  /unplugin-icons/0.12.23_4179ca639e6b0d52409fd7ec9bed740a:
-    resolution: {integrity: sha512-jhCogt+/3WEdPrfHkUGwiLnNJAOrE469J/Zlsh57KAaeEDxrw+PMqXDXRFA/fZjtal/btGPFcDOeQPPHGW6JHg==}
+  /unplugin-icons/0.13.0_4179ca639e6b0d52409fd7ec9bed740a:
+    resolution: {integrity: sha512-CyAl0HV3bZUGT7ut9agpPRhEYXCvufr80Fh72yrkD57BVCTZ7ze10Rt63ZrvPXiJQpd+aI/Bizm2aqOf3WPSfg==}
     peerDependencies:
       '@svgr/core': ^5.5.0
       '@vue/compiler-sfc': ^3.0.2
@@ -6029,12 +6025,12 @@ packages:
         optional: true
     dependencies:
       '@antfu/install-pkg': 0.1.0
-      '@antfu/utils': 0.3.0
+      '@antfu/utils': 0.4.0
       '@iconify/utils': 1.0.20
       '@vue/compiler-sfc': 3.2.24
       debug: 4.3.3
-      kolorist: 1.5.0
-      local-pkg: 0.4.0
+      kolorist: 1.5.1
+      local-pkg: 0.4.1
       unplugin: 0.2.21_vite@2.7.10
     transitivePeerDependencies:
       - rollup
