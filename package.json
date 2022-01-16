@@ -31,7 +31,7 @@
         "@vue/compiler-sfc": "3.2.24",
         "@vue/server-renderer": "3.2.24",
         "@windicss/plugin-icons": "1.0.2",
-        "critters": "0.0.15",
+        "critters": "0.0.16",
         "cross-env": "7.0.3",
         "eslint": "8.6.0",
         "https-localhost": "4.7.0",

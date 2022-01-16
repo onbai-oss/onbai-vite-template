@@ -14,7 +14,7 @@ specifiers:
   '@vueuse/core': 7.3.0
   '@vueuse/head': 0.7.4
   '@windicss/plugin-icons': 1.0.2
-  critters: 0.0.15
+  critters: 0.0.16
   cross-env: 7.0.3
   eslint: 8.6.0
   https-localhost: 4.7.0
@@ -63,7 +63,7 @@ devDependencies:
   '@vue/compiler-sfc': 3.2.24
   '@vue/server-renderer': 3.2.24_vue@3.2.24
   '@windicss/plugin-icons': 1.0.2
-  critters: 0.0.15
+  critters: 0.0.16
   cross-env: 7.0.3
   eslint: 8.6.0
   https-localhost: 4.7.0
@@ -79,7 +79,7 @@ devDependencies:
   vite-plugin-pwa: 0.11.12_vite@2.7.10
   vite-plugin-vue-layouts: 0.5.0_1b588eab0ee2dff341a16ce0fb7847ec
   vite-plugin-windicss: 1.6.1_vite@2.7.10
-  vite-ssg: 0.16.2_e0c5389119f3ba244061b5ef694c4348
+  vite-ssg: 0.16.2_59513bcaf3c8c0a2ff3ae380561199b6
   vue-tsc: 0.29.8_typescript@4.5.4
 
 packages:
@@ -1897,7 +1897,7 @@ packages:
     resolution: {integrity: sha512-bhSNXg8A2aD3w0B+CwmHjqCAaKtj5rORbE5C/q/UdGqptJbC6STCmi30KuRTdfPhR++Xb18Hauf3s/WCmtNAPA==}
     dependencies:
       domelementtype: 2.2.0
-      domhandler: 4.2.2
+      domhandler: 4.3.0
       htmlparser2: 7.1.2
       pug: 3.0.2
     dev: true
@@ -2634,14 +2634,14 @@ packages:
       vary: 1.1.2
     dev: true
 
-  /critters/0.0.15:
-    resolution: {integrity: sha512-AE7hkXb3eZUbEvS1SKZa+OU4o2kUOXtzVeE/2E/mjU/0mV1wpBT1HfUCWVRS4zwvkBNJ0AQYsVjAoFm+kIhfdw==}
+  /critters/0.0.16:
+    resolution: {integrity: sha512-JwjgmO6i3y6RWtLYmXwO5jMd+maZt8Tnfu7VVISmEWyQqfLpB8soBswf8/2bu6SBXxtKA68Al3c+qIG1ApT68A==}
     dependencies:
       chalk: 4.1.2
-      css-select: 4.1.3
+      css-select: 4.2.1
       parse5: 6.0.1
       parse5-htmlparser2-tree-adapter: 6.0.1
-      postcss: 8.3.9
+      postcss: 8.4.5
       pretty-bytes: 5.6.0
     dev: true
 
@@ -2667,12 +2667,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /css-select/4.1.3:
-    resolution: {integrity: sha512-gT3wBNd9Nj49rAbmtFHj1cljIAOLYSX1nZ8CB7TBO3INYckygm5B7LISU/szY//YmdiSLbJvDLOx9VnMVpMBxA==}
+  /css-select/4.2.1:
+    resolution: {integrity: sha512-/aUslKhzkTNCQUB2qTX84lVmfia9NyjP3WpDGtj/WxhwBzWBYUV3DgUpurHTme8UTPcPlAD1DJ+b0nN/t50zDQ==}
     dependencies:
       boolbase: 1.0.0
       css-what: 5.1.0
-      domhandler: 4.2.2
+      domhandler: 4.3.0
       domutils: 2.8.0
       nth-check: 2.0.1
     dev: true
@@ -2821,7 +2821,7 @@ packages:
     resolution: {integrity: sha512-5c54Bk5Dw4qAxNOI1pFEizPSjVsx5+bpJKmL2kPn8JhBUq2q09tTCa3mjijun2NfK78NMouDYNMBkOrPZiS+ig==}
     dependencies:
       domelementtype: 2.2.0
-      domhandler: 4.2.2
+      domhandler: 4.3.0
       entities: 2.2.0
     dev: true
 
@@ -2836,8 +2836,8 @@ packages:
       webidl-conversions: 5.0.0
     dev: true
 
-  /domhandler/4.2.2:
-    resolution: {integrity: sha512-PzE9aBMsdZO8TK4BnuJwH0QT41wgMbRzuZrHUcpYncEjmQazq8QEaBWgLG7ZyC/DAZKEgglpIA6j4Qn/HmxS3w==}
+  /domhandler/4.3.0:
+    resolution: {integrity: sha512-fC0aXNQXqKSFTr2wDNZDhsEYjCiYsDWl3D01kwt25hm1YIPyDGHvvi3rw+PLqHAl/m71MaiF7d5zvBr0p5UB2g==}
     engines: {node: '>= 4'}
     dependencies:
       domelementtype: 2.2.0
@@ -2848,7 +2848,7 @@ packages:
     dependencies:
       dom-serializer: 1.3.2
       domelementtype: 2.2.0
-      domhandler: 4.2.2
+      domhandler: 4.3.0
     dev: true
 
   /ee-first/1.1.1:
@@ -3912,7 +3912,7 @@ packages:
     resolution: {integrity: sha512-d6cqsbJba2nRdg8WW2okyD4ceonFHn9jLFxhwlNcLhQWcFPdxXeJulgOLjLKtAK9T6ahd+GQNZwG9fjmGW7lyg==}
     dependencies:
       domelementtype: 2.2.0
-      domhandler: 4.2.2
+      domhandler: 4.3.0
       domutils: 2.8.0
       entities: 3.0.1
     dev: true
@@ -6236,7 +6236,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-ssg/0.16.2_e0c5389119f3ba244061b5ef694c4348:
+  /vite-ssg/0.16.2_59513bcaf3c8c0a2ff3ae380561199b6:
     resolution: {integrity: sha512-paoBbRdaKBznYf+aTqN2Ltf5dQiBgUKwM2uvwjmPsuPQbVcznzceb13cpoG4WXxlaW2EvPns30NRIM+U6RZU3w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -6252,7 +6252,7 @@ packages:
     dependencies:
       '@vueuse/head': 0.7.4_vue@3.2.24
       chalk: 4.1.2
-      critters: 0.0.15
+      critters: 0.0.16
       fs-extra: 10.0.0
       html-minifier: 4.0.0
       jsdom: 17.0.0
