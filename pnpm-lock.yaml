@@ -33,7 +33,7 @@ specifiers:
   vite-plugin-pwa: 0.11.13
   vite-plugin-vue-layouts: 0.6.0
   vite-plugin-windicss: 1.6.1
-  vite-ssg: 0.17.6
+  vite-ssg: 0.17.9
   vue: 3.2.24
   vue-demi: 0.12.1
   vue-i18n: 9.1.9
@@ -79,7 +79,7 @@ devDependencies:
   vite-plugin-pwa: 0.11.13_vite@2.7.13
   vite-plugin-vue-layouts: 0.6.0_ea12bba1c17176f2e2f00b52e2641680
   vite-plugin-windicss: 1.6.1_vite@2.7.13
-  vite-ssg: 0.17.6_dcc54bb9074175bd881d32c6e902a160
+  vite-ssg: 0.17.9_dcc54bb9074175bd881d32c6e902a160
   vue-tsc: 0.31.1_typescript@4.5.5
 
 packages:
@@ -3816,6 +3816,12 @@ packages:
       uglify-js: 3.14.2
     dev: true
 
+  /html5parser/2.0.2:
+    resolution: {integrity: sha512-L0y+IdTVxHsovmye8MBtFgBvWZnq1C9WnI/SmJszxoQjmUH1psX2uzDk21O5k5et6udxdGjwxkbmT9eVRoG05w==}
+    dependencies:
+      tslib: 2.3.1
+    dev: true
+
   /htmlparser2/7.1.2:
     resolution: {integrity: sha512-d6cqsbJba2nRdg8WW2okyD4ceonFHn9jLFxhwlNcLhQWcFPdxXeJulgOLjLKtAK9T6ahd+GQNZwG9fjmGW7lyg==}
     dependencies:
@@ -5782,6 +5788,10 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
+  /tslib/2.3.1:
+    resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
+    dev: true
+
   /tsutils/3.21.0_typescript@4.5.5:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
     engines: {node: '>= 6'}
@@ -6156,13 +6166,13 @@ packages:
       - supports-color
     dev: true
 
-  /vite-ssg/0.17.6_dcc54bb9074175bd881d32c6e902a160:
-    resolution: {integrity: sha512-ZOu67Y2bAH4g3IyBCfWIYPRbawEjGwrxcQX9jew9Iw20z92+Pic9ztcsbCLgnHRpQRWmQ2K//xiXoHxqCPhzHg==}
+  /vite-ssg/0.17.9_dcc54bb9074175bd881d32c6e902a160:
+    resolution: {integrity: sha512-uEyoCLlBAktO1irrWIeKJQF0H8P30gvDmzKl3wxIsVg8j06VAppaybdUJnKwX4GKxgNGfiExtV+WxSWW0PtDeQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
-      '@vueuse/head': ^0.5.1
-      critters: ^0.0.10
+      '@vueuse/head': ^0.5.0 || ^0.6.0 || ^0.7.0
+      critters: ^0.0.16
       vite: ^2.0.0
       vue: ^3.2.10
       vue-router: ^4.0.1
@@ -6174,6 +6184,7 @@ packages:
       critters: 0.0.16
       fs-extra: 10.0.0
       html-minifier: 4.0.0
+      html5parser: 2.0.2
       jsdom: 19.0.0
       kolorist: 1.5.1
       prettier: 2.5.1
