@@ -28,7 +28,7 @@ specifiers:
   unplugin-icons: 0.13.1
   unplugin-vue-components: 0.17.11
   vite: 2.7.13
-  vite-plugin-md: 0.11.7
+  vite-plugin-md: 0.11.8
   vite-plugin-pages: 0.18.2
   vite-plugin-pwa: 0.11.13
   vite-plugin-vue-layouts: 0.6.0
@@ -74,7 +74,7 @@ devDependencies:
   unplugin-icons: 0.13.1_53d7bc295273f6e2f729f3c37e652838
   unplugin-vue-components: 0.17.11_vite@2.7.13+vue@3.2.24
   vite: 2.7.13
-  vite-plugin-md: 0.11.7_vite@2.7.13
+  vite-plugin-md: 0.11.8_vite@2.7.13
   vite-plugin-pages: 0.18.2_53d7bc295273f6e2f729f3c37e652838
   vite-plugin-pwa: 0.11.13_vite@2.7.13
   vite-plugin-vue-layouts: 0.6.0_ea12bba1c17176f2e2f00b52e2641680
@@ -4519,8 +4519,8 @@ packages:
       prismjs: 1.25.0
     dev: true
 
-  /markdown-it/12.3.0:
-    resolution: {integrity: sha512-T345UZZ6ejQWTjG6PSEHplzNy5m4kF6zvUpHVDv8Snl/pEU0OxIK0jGg8YLVNwJvT8E0YJC7/2UvssJDk/wQCQ==}
+  /markdown-it/12.3.2:
+    resolution: {integrity: sha512-TchMembfxfNVpHkbtriWltGWc+m3xszaRD0CZup7GFFhzIgQqxIfn3eGj1yZpfuflzPvfkt611B2Q/Bsk1YnGg==}
     hasBin: true
     dependencies:
       argparse: 2.0.1
@@ -6117,16 +6117,16 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite-plugin-md/0.11.7_vite@2.7.13:
-    resolution: {integrity: sha512-RRdmadGpCxJLeeMXy93SWFz6kzh35NO7QjgHkvggC4BxoDXkVwNJRjSKgMvINWnJVPnkhiAs0o6k1QepazIwxw==}
+  /vite-plugin-md/0.11.8_vite@2.7.13:
+    resolution: {integrity: sha512-eFk4Ox8IKuT+7benAcwLvGcYt/T4We2UDmQmxvCrhABJpQSbh44MitD1Wu6w733VKgSZAO7wd8IuoA20yXkXVQ==}
     peerDependencies:
       vite: ^2.0.0
     dependencies:
-      '@antfu/utils': 0.3.0
+      '@antfu/utils': 0.5.0
       '@rollup/pluginutils': 4.1.2
       '@types/markdown-it': 12.2.3
       gray-matter: 4.0.3
-      markdown-it: 12.3.0
+      markdown-it: 12.3.2
       vite: 2.7.13
     dev: true
 
