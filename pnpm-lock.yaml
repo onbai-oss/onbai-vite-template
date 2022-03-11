@@ -28,7 +28,7 @@ specifiers:
   unplugin-icons: 0.13.1
   unplugin-vue-components: 0.17.11
   vite: 2.8.6
-  vite-plugin-md: 0.11.8
+  vite-plugin-md: 0.11.9
   vite-plugin-pages: 0.18.2
   vite-plugin-pwa: 0.11.13
   vite-plugin-vue-layouts: 0.6.0
@@ -74,7 +74,7 @@ devDependencies:
   unplugin-icons: 0.13.1_5dbb0cc878f3ab9caa0bd7b169eded43
   unplugin-vue-components: 0.17.11_vite@2.8.6+vue@3.2.31
   vite: 2.8.6
-  vite-plugin-md: 0.11.8_vite@2.8.6
+  vite-plugin-md: 0.11.9_vite@2.8.6
   vite-plugin-pages: 0.18.2_5dbb0cc878f3ab9caa0bd7b169eded43
   vite-plugin-pwa: 0.11.13_vite@2.8.6
   vite-plugin-vue-layouts: 0.6.0_a4592832fd4441821c40bfaa7d2d3166
@@ -1580,6 +1580,14 @@ packages:
 
   /@rollup/pluginutils/4.1.2:
     resolution: {integrity: sha512-ROn4qvkxP9SyPeHaf7uQC/GPFY6L/OWy9+bd9AwcjOAWQwxRscoEyAUD8qCY5o5iL4jqQwoLk2kaTKJPb/HwzQ==}
+    engines: {node: '>= 8.0.0'}
+    dependencies:
+      estree-walker: 2.0.2
+      picomatch: 2.3.0
+    dev: true
+
+  /@rollup/pluginutils/4.2.0:
+    resolution: {integrity: sha512-2WUyJNRkyH5p487pGnn4tWAsxhEFKN/pT8CMgHshd5H+IXkOnKvKZwsz5ZWz+YCXkleZRAU5kwbfgF8CPfDRqA==}
     engines: {node: '>= 8.0.0'}
     dependencies:
       estree-walker: 2.0.2
@@ -6098,13 +6106,13 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite-plugin-md/0.11.8_vite@2.8.6:
-    resolution: {integrity: sha512-eFk4Ox8IKuT+7benAcwLvGcYt/T4We2UDmQmxvCrhABJpQSbh44MitD1Wu6w733VKgSZAO7wd8IuoA20yXkXVQ==}
+  /vite-plugin-md/0.11.9_vite@2.8.6:
+    resolution: {integrity: sha512-0uD2BPIct3FbEA1hAm56hlrBByEn542HTsS/FoWf33lJIgijVBDDV6FE12ud0SHS6sculITKliF2ntog2kiHmQ==}
     peerDependencies:
       vite: ^2.0.0
     dependencies:
       '@antfu/utils': 0.5.0
-      '@rollup/pluginutils': 4.1.2
+      '@rollup/pluginutils': 4.2.0
       '@types/markdown-it': 12.2.3
       gray-matter: 4.0.3
       markdown-it: 12.3.2
