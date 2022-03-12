@@ -24,7 +24,7 @@ specifiers:
   pinia: 2.0.11
   prism-theme-vars: 0.2.2
   typescript: 4.5.5
-  unplugin-auto-import: 0.6.1
+  unplugin-auto-import: 0.6.4
   unplugin-icons: 0.13.1
   unplugin-vue-components: 0.17.11
   vite: 2.8.6
@@ -70,7 +70,7 @@ devDependencies:
   markdown-it-link-attributes: 3.0.0
   markdown-it-prism: 2.2.1
   typescript: 4.5.5
-  unplugin-auto-import: 0.6.1_@vueuse+core@7.7.1+vite@2.8.6
+  unplugin-auto-import: 0.6.4_@vueuse+core@7.7.1+vite@2.8.6
   unplugin-icons: 0.13.1_5dbb0cc878f3ab9caa0bd7b169eded43
   unplugin-vue-components: 0.17.11_vite@2.8.6+vue@3.2.31
   vite: 2.8.6
@@ -2398,6 +2398,21 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+  /chokidar/3.5.3:
+    resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==}
+    engines: {node: '>= 8.10.0'}
+    dependencies:
+      anymatch: 3.1.2
+      braces: 3.0.2
+      glob-parent: 5.1.2
+      is-binary-path: 2.1.0
+      is-glob: 4.0.3
+      normalize-path: 3.0.0
+      readdirp: 3.6.0
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
   /ci-info/3.3.0:
     resolution: {integrity: sha512-riT/3vI5YpVH6/qomlDnJow6TBee2PBKSEpx3O32EGPYbWGIRsIlGRms3Sm74wYE1JMo8RnO04Hb12+v1J5ICw==}
     dev: true
@@ -4527,6 +4542,13 @@ packages:
     dependencies:
       sourcemap-codec: 1.4.8
 
+  /magic-string/0.26.1:
+    resolution: {integrity: sha512-ndThHmvgtieXe8J/VGPjG+Apu7v7ItcD5mhEIvOscWjPF/ccOiLxHaSuCAS2G+3x4GKsAbT8u7zdyamupui8Tg==}
+    engines: {node: '>=12'}
+    dependencies:
+      sourcemap-codec: 1.4.8
+    dev: true
+
   /markdown-it-link-attributes/3.0.0:
     resolution: {integrity: sha512-B34ySxVeo6MuEGSPCWyIYryuXINOvngNZL87Mp7YYfKIf6DcD837+lXA8mo6EBbauKsnGz22ZH0zsbOiQRWTNg==}
     dev: true
@@ -5935,8 +5957,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin-auto-import/0.6.1_@vueuse+core@7.7.1+vite@2.8.6:
-    resolution: {integrity: sha512-rSukyyROmSkqL9tjkA88oLhpG4tXYkk2rTpqGaYKjXRNktHEKf03pit8bamPt95KPVfMLjT0+TPKi6ju0toOIw==}
+  /unplugin-auto-import/0.6.4_@vueuse+core@7.7.1+vite@2.8.6:
+    resolution: {integrity: sha512-gkjVKnugRCIh1JtwZhn8bdvdW8RW17WoCEJgJXJ9sGMsKrgP9xbaNMLULrmtrfxyGOabm42XXWoaR12EzdcVNA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vueuse/core': '*'
@@ -5945,12 +5967,12 @@ packages:
         optional: true
     dependencies:
       '@antfu/utils': 0.5.0
-      '@rollup/pluginutils': 4.1.2
+      '@rollup/pluginutils': 4.2.0
       '@vueuse/core': 7.7.1_vue@3.2.31
       local-pkg: 0.4.1
-      magic-string: 0.25.7
+      magic-string: 0.26.1
       resolve: 1.22.0
-      unplugin: 0.3.2_vite@2.8.6
+      unplugin: 0.4.0_vite@2.8.6
     transitivePeerDependencies:
       - esbuild
       - rollup
@@ -6057,6 +6079,28 @@ packages:
       webpack:
         optional: true
     dependencies:
+      vite: 2.8.6
+      webpack-virtual-modules: 0.4.3
+    dev: true
+
+  /unplugin/0.4.0_vite@2.8.6:
+    resolution: {integrity: sha512-4ScITEmzlz1iZW3tkz+3L1V5k/xMQ6kjgm4lEXKxH0ozd8/OUWfiSA7RMRyrawsvq/t50JIzPpp1UyuSL/AXkA==}
+    peerDependencies:
+      esbuild: '>=0.13'
+      rollup: ^2.50.0
+      vite: ^2.3.0
+      webpack: 4 || 5
+    peerDependenciesMeta:
+      esbuild:
+        optional: true
+      rollup:
+        optional: true
+      vite:
+        optional: true
+      webpack:
+        optional: true
+    dependencies:
+      chokidar: 3.5.3
       vite: 2.8.6
       webpack-virtual-modules: 0.4.3
     dev: true
