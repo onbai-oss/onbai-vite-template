@@ -37,7 +37,7 @@ specifiers:
   vue: 3.2.31
   vue-demi: 0.12.1
   vue-i18n: 9.1.9
-  vue-router: 4.0.13
+  vue-router: 4.0.14
   vue-tsc: 0.31.4
 
 dependencies:
@@ -49,7 +49,7 @@ dependencies:
   vue: 3.2.31
   vue-demi: 0.12.1_vue@3.2.31
   vue-i18n: 9.1.9_vue@3.2.31
-  vue-router: 4.0.13_vue@3.2.31
+  vue-router: 4.0.14_vue@3.2.31
 
 devDependencies:
   '@antfu/eslint-config': 0.15.0_eslint@8.10.0+typescript@4.5.5
@@ -77,9 +77,9 @@ devDependencies:
   vite-plugin-md: 0.11.9_vite@2.8.6
   vite-plugin-pages: 0.18.2_5dbb0cc878f3ab9caa0bd7b169eded43
   vite-plugin-pwa: 0.11.13_vite@2.8.6
-  vite-plugin-vue-layouts: 0.6.0_a4592832fd4441821c40bfaa7d2d3166
+  vite-plugin-vue-layouts: 0.6.0_da2b5bfcc9ee38bfd25c98b31b35c29d
   vite-plugin-windicss: 1.7.1_vite@2.8.6
-  vite-ssg: 0.17.11_9595d2fae002e069f8fe7190dcba3cdc
+  vite-ssg: 0.17.11_633169c0127c639409dcdce1a68bd8fb
   vue-tsc: 0.31.4_typescript@4.5.5
 
 packages:
@@ -6201,7 +6201,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-vue-layouts/0.6.0_a4592832fd4441821c40bfaa7d2d3166:
+  /vite-plugin-vue-layouts/0.6.0_da2b5bfcc9ee38bfd25c98b31b35c29d:
     resolution: {integrity: sha512-7QX7o/NpCfs+hyXphwYfmPqAEQ6qd4uXsvI0VsovjGT2eCoEE5dMdP6L+uqqNWY4uqv7oCvtinecZmbzZv/9Rg==}
     peerDependencies:
       vite: ^2.5.0
@@ -6213,7 +6213,7 @@ packages:
       fast-glob: 3.2.7
       vite: 2.8.6
       vue: 3.2.31
-      vue-router: 4.0.13_vue@3.2.31
+      vue-router: 4.0.14_vue@3.2.31
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6232,7 +6232,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-ssg/0.17.11_9595d2fae002e069f8fe7190dcba3cdc:
+  /vite-ssg/0.17.11_633169c0127c639409dcdce1a68bd8fb:
     resolution: {integrity: sha512-Fr64PausOt65RY6ROfrAGtUuwOoQXMAQLlpSAvCRGeOVZ6BvTyBW3gH+eAkJO3vCJXlHLQJFs8mA74g2Tx48mw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -6256,7 +6256,7 @@ packages:
       prettier: 2.5.1
       vite: 2.8.6
       vue: 3.2.31
-      vue-router: 4.0.13_vue@3.2.31
+      vue-router: 4.0.14_vue@3.2.31
       yargs: 17.3.1
     transitivePeerDependencies:
       - bufferutil
@@ -6450,8 +6450,8 @@ packages:
       vue: 3.2.31
     dev: false
 
-  /vue-router/4.0.13_vue@3.2.31:
-    resolution: {integrity: sha512-LmXrC+BkDRLak+d5xTMgUYraT3Nj0H/vCbP+7usGvIl9Viqd1UP6AsP0i69pSbn9O0dXK/xCdp4yPw21HqV9Jw==}
+  /vue-router/4.0.14_vue@3.2.31:
+    resolution: {integrity: sha512-wAO6zF9zxA3u+7AkMPqw9LjoUCjSxfFvINQj3E/DceTt6uEz1XZLraDhdg2EYmvVwTBSGlLYsUw8bDmx0754Mw==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
