@@ -33,7 +33,7 @@ specifiers:
   vite-plugin-pwa: 0.11.13
   vite-plugin-vue-layouts: 0.6.0
   vite-plugin-windicss: 1.8.3
-  vite-ssg: 0.17.11
+  vite-ssg: 0.19.2
   vue: 3.2.31
   vue-demi: 0.12.5
   vue-i18n: 9.1.9
@@ -79,7 +79,7 @@ devDependencies:
   vite-plugin-pwa: 0.11.13_vite@2.9.1
   vite-plugin-vue-layouts: 0.6.0_7751236df27102a4c49ccda658860b98
   vite-plugin-windicss: 1.8.3_vite@2.9.1
-  vite-ssg: 0.17.11_8a34f81858753d7c2021b169d5bdf157
+  vite-ssg: 0.19.2_8a34f81858753d7c2021b169d5bdf157
   vue-tsc: 0.31.4_typescript@4.6.3
 
 packages:
@@ -3651,8 +3651,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /fs-extra/10.0.0:
-    resolution: {integrity: sha512-C5owb14u9eJwizKGdchcDUQeFtlSHHthBk8pbX9Vc1PFZrLombudjDnNns88aYslCyF6IY5SUw3Roz6xShcEIQ==}
+  /fs-extra/10.0.1:
+    resolution: {integrity: sha512-NbdoVMZso2Lsrn/QwLXOy6rm0ufY2zEOKCDzJR/0kBsb0E6qed0P3iYK+Ath3BfvXEeu4JhEtXLgILx5psUfag==}
     engines: {node: '>=12'}
     dependencies:
       graceful-fs: 4.2.8
@@ -5031,8 +5031,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.5.1:
-    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
+  /prettier/2.6.2:
+    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -6231,8 +6231,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-ssg/0.17.11_8a34f81858753d7c2021b169d5bdf157:
-    resolution: {integrity: sha512-Fr64PausOt65RY6ROfrAGtUuwOoQXMAQLlpSAvCRGeOVZ6BvTyBW3gH+eAkJO3vCJXlHLQJFs8mA74g2Tx48mw==}
+  /vite-ssg/0.19.2_8a34f81858753d7c2021b169d5bdf157:
+    resolution: {integrity: sha512-r9UJJ4OTMyu9f4nNe12PMVhVkeXYp1rUKbIl6zIOz5QDYEDgFcq8hZGUMMIAcyHhB4pH5ImmjZd1hJ2fO6hOmg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
@@ -6247,12 +6247,12 @@ packages:
     dependencies:
       '@vueuse/head': 0.7.4_vue@3.2.31
       critters: 0.0.16
-      fs-extra: 10.0.0
+      fs-extra: 10.0.1
       html-minifier: 4.0.0
       html5parser: 2.0.2
       jsdom: 19.0.0
       kolorist: 1.5.1
-      prettier: 2.5.1
+      prettier: 2.6.2
       vite: 2.9.1
       vue: 3.2.31
       vue-router: 4.0.14_vue@3.2.31
