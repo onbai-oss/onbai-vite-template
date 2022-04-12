@@ -48,6 +48,6 @@
         "vite-plugin-vue-layouts": "0.6.0",
         "vite-plugin-windicss": "1.8.3",
         "vite-ssg": "0.19.2",
-        "vue-tsc": "0.31.4"
+        "vue-tsc": "0.34.6"
     }
 }
