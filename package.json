@@ -41,7 +41,7 @@
         "unplugin-auto-import": "0.6.4",
         "unplugin-icons": "0.13.1",
         "unplugin-vue-components": "0.17.11",
-        "vite": "2.9.6",
+        "vite": "2.9.8",
         "vite-plugin-md": "0.13.0",
         "vite-plugin-pages": "0.18.2",
         "vite-plugin-pwa": "0.12.0",
