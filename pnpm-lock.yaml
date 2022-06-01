@@ -29,7 +29,7 @@ specifiers:
   unplugin-vue-components: 0.17.11
   vite: 2.9.9
   vite-plugin-md: 0.13.1
-  vite-plugin-pages: 0.18.2
+  vite-plugin-pages: 0.23.0
   vite-plugin-pwa: 0.12.0
   vite-plugin-vue-layouts: 0.6.0
   vite-plugin-windicss: 1.8.4
@@ -75,7 +75,7 @@ devDependencies:
   unplugin-vue-components: 0.17.11_vite@2.9.9+vue@3.2.36
   vite: 2.9.9
   vite-plugin-md: 0.13.1_vite@2.9.9
-  vite-plugin-pages: 0.18.2_cyjpizlboac2xw76ngrtxfz55y
+  vite-plugin-pages: 0.23.0_cyjpizlboac2xw76ngrtxfz55y
   vite-plugin-pwa: 0.12.0_vite@2.9.9
   vite-plugin-vue-layouts: 0.6.0_ogyzu5t2gxjxdcuo6vkz6mdms4
   vite-plugin-windicss: 1.8.4_vite@2.9.9
@@ -246,7 +246,7 @@ packages:
       convert-source-map: 1.8.0
       debug: 4.3.4
       gensync: 1.0.0-beta.2
-      json5: 2.2.0
+      json5: 2.2.1
       semver: 6.3.0
       source-map: 0.5.7
     transitivePeerDependencies:
@@ -1593,7 +1593,7 @@ packages:
     resolution: {integrity: sha512-lR8q/9W7hZpMWweNiAKU7NQerBnzQQLvi8qnTDU/fxItPhtZVMbPV3lbCwjhIlNBe9Bbr5V+KHshvWmVSG9cxQ==}
     dependencies:
       ejs: 3.1.6
-      json5: 2.2.0
+      json5: 2.2.1
       magic-string: 0.25.7
       string.prototype.matchall: 4.0.7
     dev: true
@@ -1601,6 +1601,12 @@ packages:
   /@tootallnate/once/2.0.0:
     resolution: {integrity: sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==}
     engines: {node: '>= 10'}
+    dev: true
+
+  /@types/debug/4.1.7:
+    resolution: {integrity: sha512-9AonUzyTjXXhEOa0DnqpzZi6VHlqKMswga9EXjpXnnqxwLtdvPPtlO8evrI5D9S6asFRCQ6v+wpiUKbw+vKqyg==}
+    dependencies:
+      '@types/ms': 0.7.31
     dev: true
 
   /@types/estree/0.0.39:
@@ -1640,6 +1646,10 @@ packages:
 
   /@types/mdurl/1.0.2:
     resolution: {integrity: sha512-eC4U9MlIcu2q0KQmXszyn5Akca/0jrQmwDRgpAMJai7qBWq4amIQhZyNau4VYGtCeALvW1/NtjzJJ567aZxfKA==}
+    dev: true
+
+  /@types/ms/0.7.31:
+    resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
   /@types/node/16.9.1:
@@ -4419,12 +4429,10 @@ packages:
       minimist: 1.2.6
     dev: true
 
-  /json5/2.2.0:
-    resolution: {integrity: sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==}
+  /json5/2.2.1:
+    resolution: {integrity: sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==}
     engines: {node: '>=6'}
     hasBin: true
-    dependencies:
-      minimist: 1.2.6
     dev: true
 
   /jsonc-eslint-parser/1.4.1:
@@ -6197,23 +6205,25 @@ packages:
       vite: 2.9.9
     dev: true
 
-  /vite-plugin-pages/0.18.2_cyjpizlboac2xw76ngrtxfz55y:
-    resolution: {integrity: sha512-Z6ylvMKYSiCngtSpWw9pHN4UzjMQvOG7f0RtLMDKm1LrO5iye7V8BS8Rfdvrl9Nz+D2W+i0pi98+vOL5VsmTvQ==}
+  /vite-plugin-pages/0.23.0_cyjpizlboac2xw76ngrtxfz55y:
+    resolution: {integrity: sha512-KEfW6WBfACCjMXoQY0mLEzfifwCTq6FlvvtXs2XSEe9Pd4QadZTNzHOPKHDsKpVXysRzbYxE8/c/Ao9+nXsQ7w==}
     peerDependencies:
-      '@vue/compiler-sfc': '>=3'
-      vite: '>=2'
+      '@vue/compiler-sfc': ^3.0.0
+      vite: ^2.0.0
     peerDependenciesMeta:
       '@vue/compiler-sfc':
         optional: true
     dependencies:
-      '@antfu/utils': 0.3.0
+      '@types/debug': 4.1.7
       '@vue/compiler-sfc': 3.2.36
-      debug: 4.3.3
+      debug: 4.3.4
       deep-equal: 2.0.5
-      fast-glob: 3.2.7
-      json5: 2.2.0
+      fast-glob: 3.2.11
+      json5: 2.2.1
+      local-pkg: 0.4.1
+      picocolors: 1.0.0
       vite: 2.9.9
-      yaml: 2.0.0-8
+      yaml: 2.1.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6722,9 +6732,9 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /yaml/2.0.0-8:
-    resolution: {integrity: sha512-QaYgJZMfWD6fKN/EYMk6w1oLWPCr1xj9QaPSZW5qkDb3y8nGCXhy2Ono+AF4F+CSL/vGcqswcAT0BaS//pgD2A==}
-    engines: {node: '>= 12'}
+  /yaml/2.1.0:
+    resolution: {integrity: sha512-OuAINfTsoJrY5H7CBWnKZhX6nZciXBydrMtTHr1dC4nP40X5jyTIVlogZHxSlVZM8zSgXRfgZGsaHF4+pV+JRw==}
+    engines: {node: '>= 14'}
     dev: true
 
   /yaml/2.1.0:
