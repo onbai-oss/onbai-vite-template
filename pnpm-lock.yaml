@@ -29,7 +29,7 @@ specifiers:
   unplugin-vue-components: 0.19.9
   vite: 2.9.13
   vite-plugin-md: 0.14.1
-  vite-plugin-pages: 0.24.3
+  vite-plugin-pages: 0.25.0
   vite-plugin-pwa: 0.12.0
   vite-plugin-vue-layouts: 0.6.0
   vite-plugin-windicss: 1.8.4
@@ -75,7 +75,7 @@ devDependencies:
   unplugin-vue-components: 0.19.9_vite@2.9.13+vue@3.2.37
   vite: 2.9.13
   vite-plugin-md: 0.14.1_vite@2.9.13+vue@3.2.37
-  vite-plugin-pages: 0.24.3_0378b3318b8829ae3fc17d5ce6428f91
+  vite-plugin-pages: 0.25.0_0378b3318b8829ae3fc17d5ce6428f91
   vite-plugin-pwa: 0.12.0_vite@2.9.13
   vite-plugin-vue-layouts: 0.6.0_2562b5b547eb62bb06cd0dcf53f29baf
   vite-plugin-windicss: 1.8.4_vite@2.9.13
@@ -7143,11 +7143,11 @@ packages:
       - vue
     dev: true
 
-  /vite-plugin-pages/0.24.3_0378b3318b8829ae3fc17d5ce6428f91:
-    resolution: {integrity: sha512-hq2ug7S3hYoPmEY2PXhbMUPiKBXhmhyVwDQKzs0o3rjmd4yybUA2cYP9MB+Zassi34Q40vW9vgd8dKB8DUR7wQ==}
+  /vite-plugin-pages/0.25.0_0378b3318b8829ae3fc17d5ce6428f91:
+    resolution: {integrity: sha512-q0SX2iSw0UrTnivkzsPb19ZxamShq1nE/e/CKOe8+uVg70/e14uJuzKnw7dZ2omPjmV9Lhks38nzJL6RDRGmeA==}
     peerDependencies:
       '@vue/compiler-sfc': ^2.7.0 || ^3.0.0
-      vite: ^2.0.0
+      vite: ^2.0.0 || ^3.0.0-0
     peerDependenciesMeta:
       '@vue/compiler-sfc':
         optional: true
