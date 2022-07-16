@@ -35,7 +35,7 @@ specifiers:
   vite-plugin-windicss: 1.8.4
   vite-ssg: 0.20.2
   vue: 3.2.37
-  vue-demi: 0.13.4
+  vue-demi: 0.13.5
   vue-i18n: 9.1.10
   vue-router: 4.1.1
   vue-tsc: 0.38.3
@@ -47,7 +47,7 @@ dependencies:
   pinia: 2.0.16_typescript@4.7.4+vue@3.2.37
   prism-theme-vars: 0.2.3
   vue: 3.2.37
-  vue-demi: 0.13.4_vue@3.2.37
+  vue-demi: 0.13.5_vue@3.2.37
   vue-i18n: 9.1.10_vue@3.2.37
   vue-router: 4.1.1_vue@3.2.37
 
@@ -2083,7 +2083,7 @@ packages:
       '@vueuse/metadata': 8.7.4
       '@vueuse/shared': 8.7.4_vue@3.2.37
       vue: 3.2.37
-      vue-demi: 0.13.4_vue@3.2.37
+      vue-demi: 0.13.5_vue@3.2.37
 
   /@vueuse/head/0.7.6_vue@3.2.37:
     resolution: {integrity: sha512-cOWqCkT3WiF5oEpw+VVEWUJd9RLD5rc7DmnFp3cePsejp+t7686uKD9Z9ZU7Twb7R/BI8iexKTmXo9D/F3v6UA==}
@@ -2107,7 +2107,7 @@ packages:
         optional: true
     dependencies:
       vue: 3.2.37
-      vue-demi: 0.13.4_vue@3.2.37
+      vue-demi: 0.13.5_vue@3.2.37
 
   /@windicss/config/1.8.4:
     resolution: {integrity: sha512-i4fFGFfZoRess6WMkauykHC3PFd9xKYVx7lSuLfMK7sgo6x3+l4dY42GbsWMHyLqH1sTMfyt1LgfXSIKYJozSA==}
@@ -5862,7 +5862,7 @@ packages:
       '@vue/devtools-api': 6.1.4
       typescript: 4.7.4
       vue: 3.2.37
-      vue-demi: 0.13.4_vue@3.2.37
+      vue-demi: 0.13.5_vue@3.2.37
     dev: false
 
   /pkg-types/0.3.3:
@@ -7306,8 +7306,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vue-demi/0.13.4_vue@3.2.37:
-    resolution: {integrity: sha512-KP4lq9uSz0KZbaqCllRhnxMV3mYRsRWJfdsAhZyt5bV5O1RTpoeDptBRV9NOa/JgOpfaA9ane88VF7OjWNK/DA==}
+  /vue-demi/0.13.5_vue@3.2.37:
+    resolution: {integrity: sha512-tO3K2bML3AwiHmVHeKCq6HLef2st4zBXIV5aEkoJl6HZ+gJWxWv2O8wLH8qrA3SX3lDoTDHNghLX1xZg83MXvw==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
