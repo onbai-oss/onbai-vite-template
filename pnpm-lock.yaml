@@ -11,7 +11,7 @@ specifiers:
   '@vitejs/plugin-vue': 2.3.3
   '@vue/compiler-sfc': 3.2.37
   '@vue/server-renderer': 3.2.37
-  '@vueuse/core': 8.7.4
+  '@vueuse/core': 8.9.4
   '@vueuse/head': 0.7.6
   '@windicss/plugin-icons': 1.0.2
   critters: 0.0.16
@@ -41,7 +41,7 @@ specifiers:
   vue-tsc: 0.38.3
 
 dependencies:
-  '@vueuse/core': 8.7.4_vue@3.2.37
+  '@vueuse/core': 8.9.4_vue@3.2.37
   '@vueuse/head': 0.7.6_vue@3.2.37
   nprogress: 0.2.0
   pinia: 2.0.16_typescript@4.7.4+vue@3.2.37
@@ -70,7 +70,7 @@ devDependencies:
   markdown-it-link-attributes: 4.0.0
   markdown-it-prism: 2.2.4
   typescript: 4.7.4
-  unplugin-auto-import: 0.9.3_@vueuse+core@8.7.4+vite@2.9.14
+  unplugin-auto-import: 0.9.3_@vueuse+core@8.9.4+vite@2.9.14
   unplugin-icons: 0.14.3_c13f2b75a81e892d939062931779d9c7
   unplugin-vue-components: 0.21.1_vite@2.9.14+vue@3.2.37
   vite: 2.9.14
@@ -1818,6 +1818,9 @@ packages:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
     dev: true
 
+  /@types/web-bluetooth/0.0.14:
+    resolution: {integrity: sha512-5d2RhCard1nQUC3aHcq/gHzWYO6K0WJmAbjO7mQJgCQKtZpgXxv1rOM6O/dBDhDYYVutk1sciOgNSe+5YyfM8A==}
+
   /@types/yauzl/2.10.0:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
@@ -2069,8 +2072,8 @@ packages:
   /@vue/shared/3.2.37:
     resolution: {integrity: sha512-4rSJemR2NQIo9Klm1vabqWjD8rs/ZaJSzMxkMNeJS6lHiUjjUeYFbooN19NgFjztubEKh3WlZUeOLVdbbUWHsw==}
 
-  /@vueuse/core/8.7.4_vue@3.2.37:
-    resolution: {integrity: sha512-dQgxjb79PDcizlaclgCkCzNoqNv12PnbXxUOFL9VacakmD/ACoSMWwTpcG3HKoDoYyl2V3kSW/8AkvXGEYEGFA==}
+  /@vueuse/core/8.9.4_vue@3.2.37:
+    resolution: {integrity: sha512-B/Mdj9TK1peFyWaPof+Zf/mP9XuGAngaJZBwPaXBvU3aCTZlx3ltlrFFFyMV4iGBwsjSCeUCgZrtkEj9dS2Y3Q==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
       vue: ^2.6.0 || ^3.2.0
@@ -2080,8 +2083,9 @@ packages:
       vue:
         optional: true
     dependencies:
-      '@vueuse/metadata': 8.7.4
-      '@vueuse/shared': 8.7.4_vue@3.2.37
+      '@types/web-bluetooth': 0.0.14
+      '@vueuse/metadata': 8.9.4
+      '@vueuse/shared': 8.9.4_vue@3.2.37
       vue: 3.2.37
       vue-demi: 0.13.5_vue@3.2.37
 
@@ -2092,11 +2096,11 @@ packages:
     dependencies:
       vue: 3.2.37
 
-  /@vueuse/metadata/8.7.4:
-    resolution: {integrity: sha512-CwEYS6/M6JDxk9D1mUsZq3F0VnYnf39rAxOytP58vb4BrhmPKEVfiSpvxuYcJimU9ccT/xjWhwBnsdGC2H9mIQ==}
+  /@vueuse/metadata/8.9.4:
+    resolution: {integrity: sha512-IwSfzH80bnJMzqhaapqJl9JRIiyQU0zsRGEgnxN6jhq7992cPUJIRfV+JHRIZXjYqbwt07E1gTEp0R0zPJ1aqw==}
 
-  /@vueuse/shared/8.7.4_vue@3.2.37:
-    resolution: {integrity: sha512-QhwTEd2Gr/8ZliWVEM8sbMUkXtVVV1Mt1mOkCnIbIN33D/V28FwGKUKqEPGZZCXuJchARnun/J1TAiT/UmZd1w==}
+  /@vueuse/shared/8.9.4_vue@3.2.37:
+    resolution: {integrity: sha512-wt+T30c4K6dGRMVqPddexEVLa28YwxW5OFIPmzUHICjphfAuBFTTdDoyqREZNDOFJZ44ARH1WWQNCUK8koJ+Ag==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
       vue: ^2.6.0 || ^3.2.0
@@ -6931,7 +6935,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin-auto-import/0.9.3_@vueuse+core@8.7.4+vite@2.9.14:
+  /unplugin-auto-import/0.9.3_@vueuse+core@8.9.4+vite@2.9.14:
     resolution: {integrity: sha512-S3fC/kp98v+HhELCCG4jm4fhd/BbXhhcmFxxQ/JHXefLPtz9WTCOsSq3pq7U4D94xJ0eyZOPo/56Y9iUf3kskw==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -6942,7 +6946,7 @@ packages:
     dependencies:
       '@antfu/utils': 0.5.2
       '@rollup/pluginutils': 4.2.1
-      '@vueuse/core': 8.7.4_vue@3.2.37
+      '@vueuse/core': 8.9.4_vue@3.2.37
       local-pkg: 0.4.2
       magic-string: 0.26.2
       unimport: 0.4.5_vite@2.9.14
@@ -7157,7 +7161,7 @@ packages:
       '@types/prismjs': 1.26.0
       '@vitejs/plugin-vue': 2.3.3_vite@2.9.14+vue@3.2.37
       '@vue/runtime-core': 3.2.37
-      '@vueuse/core': 8.7.4_vue@3.2.37
+      '@vueuse/core': 8.9.4_vue@3.2.37
       '@yankeeinlondon/happy-wrapper': 1.0.0
       cypress-types: 0.1.0
       fp-ts: 2.12.1
