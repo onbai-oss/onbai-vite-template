@@ -25,7 +25,7 @@ specifiers:
   prism-theme-vars: 0.2.3
   typescript: 4.7.4
   unplugin-auto-import: 0.10.3
-  unplugin-icons: 0.14.7
+  unplugin-icons: 0.14.8
   unplugin-vue-components: 0.21.2
   vite: 3.0.4
   vite-plugin-md: 0.14.1
@@ -71,7 +71,7 @@ devDependencies:
   markdown-it-prism: 2.2.4
   typescript: 4.7.4
   unplugin-auto-import: 0.10.3_@vueuse+core@8.9.4+vite@3.0.4
-  unplugin-icons: 0.14.7_1c41187ff6699a8aeede5ef0ec3c47fb
+  unplugin-icons: 0.14.8_1c41187ff6699a8aeede5ef0ec3c47fb
   unplugin-vue-components: 0.21.2_vite@3.0.4+vue@3.2.37
   vite: 3.0.4
   vite-plugin-md: 0.14.1_vite@3.0.4+vue@3.2.37
@@ -6969,8 +6969,8 @@ packages:
       - webpack
     dev: true
 
-  /unplugin-icons/0.14.7_1c41187ff6699a8aeede5ef0ec3c47fb:
-    resolution: {integrity: sha512-TrNnEdpaXMdiG5BsCgvU6cv/gSLYvIk1f8wGCGZmOo4wmi3nqYBuqIEuiXhmmyXdDZuRRpCaOzCnCYYZ5H7U8g==}
+  /unplugin-icons/0.14.8_1c41187ff6699a8aeede5ef0ec3c47fb:
+    resolution: {integrity: sha512-YxLC0Uxec+ayl8ju3CXmRX4Jg7IF8Tu2cRyq/okXwMK6fM140SPae332ByTlul1E/I7I0PXYSVVn8SlGunM/2g==}
     peerDependencies:
       '@svgr/core': '>=5.5.0'
       '@vue/compiler-sfc': ^3.0.2
@@ -6993,7 +6993,7 @@ packages:
       debug: 4.3.4
       kolorist: 1.5.1
       local-pkg: 0.4.2
-      unplugin: 0.7.2_vite@3.0.4
+      unplugin: 0.8.0_vite@3.0.4
     transitivePeerDependencies:
       - esbuild
       - rollup
