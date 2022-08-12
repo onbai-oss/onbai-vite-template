@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@antfu/eslint-config': 0.25.1
   '@iconify/json': 2.1.64
-  '@intlify/vite-plugin-vue-i18n': 6.0.0
+  '@intlify/vite-plugin-vue-i18n': 6.0.1
   '@types/markdown-it-link-attributes': 3.0.1
   '@types/nprogress': 0.2.0
   '@typescript-eslint/eslint-plugin': 5.33.0
@@ -54,7 +54,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.25.1_eslint@8.21.0+typescript@4.7.4
   '@iconify/json': 2.1.64
-  '@intlify/vite-plugin-vue-i18n': 6.0.0_vite@3.0.6+vue-i18n@9.1.10
+  '@intlify/vite-plugin-vue-i18n': 6.0.1_vite@3.0.6+vue-i18n@9.1.10
   '@types/markdown-it-link-attributes': 3.0.1
   '@types/nprogress': 0.2.0
   '@typescript-eslint/eslint-plugin': 5.33.0_6a5aeee3f1c697a58988a7278b5d566c
@@ -1517,8 +1517,8 @@ packages:
     engines: {node: '>= 14'}
     dev: true
 
-  /@intlify/vite-plugin-vue-i18n/6.0.0_vite@3.0.6+vue-i18n@9.1.10:
-    resolution: {integrity: sha512-9hvd846YWACtSr6akOR57utxSP2205XJqVfidiQVZLTkHTVHjDhPiRg1ShdZBT909fzW2+71e2tgG4lRi4r87Q==}
+  /@intlify/vite-plugin-vue-i18n/6.0.1_vite@3.0.6+vue-i18n@9.1.10:
+    resolution: {integrity: sha512-FFVcxVU4bR9vdDLNbltM5mrhndnXMErO01i0RrpdyMegEt3Nu/YLoH0sFdjRun7/RY4vaEnhTnFvVf9uO0dQvg==}
     engines: {node: '>= 14.6'}
     peerDependencies:
       petite-vue-i18n: '*'
