@@ -18,7 +18,7 @@ specifiers:
   cross-env: 7.0.3
   eslint: 8.21.0
   https-localhost: 4.7.1
-  markdown-it-link-attributes: 4.0.0
+  markdown-it-link-attributes: 4.0.1
   markdown-it-prism: 2.2.4
   nprogress: 0.2.0
   pinia: 2.0.17
@@ -67,7 +67,7 @@ devDependencies:
   cross-env: 7.0.3
   eslint: 8.21.0
   https-localhost: 4.7.1
-  markdown-it-link-attributes: 4.0.0
+  markdown-it-link-attributes: 4.0.1
   markdown-it-prism: 2.2.4
   typescript: 4.7.4
   unplugin-auto-import: 0.11.1_@vueuse+core@9.1.0+vite@3.0.6
@@ -5338,8 +5338,8 @@ packages:
       sourcemap-codec: 1.4.8
     dev: true
 
-  /markdown-it-link-attributes/4.0.0:
-    resolution: {integrity: sha512-ssjxSLlLfQBkX6BvAx1rCPrx7ZoK91llQQvS3P7KXvlbnVD34OUkfXwWecN7su/7mrI/HOW0RI5szdJOIqYC3w==}
+  /markdown-it-link-attributes/4.0.1:
+    resolution: {integrity: sha512-pg5OK0jPLg62H4k7M9mRJLT61gUp9nvG0XveKYHMOOluASo9OEF13WlXrpAp2aj35LbedAy3QOCgQCw0tkLKAQ==}
     dev: true
 
   /markdown-it-prism/2.2.4:
