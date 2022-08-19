@@ -21,7 +21,7 @@ specifiers:
   markdown-it-link-attributes: 4.0.1
   markdown-it-prism: 2.2.4
   nprogress: 0.2.0
-  pinia: 2.0.18
+  pinia: 2.0.20
   prism-theme-vars: 0.2.3
   typescript: 4.7.4
   unplugin-auto-import: 0.11.1
@@ -44,7 +44,7 @@ dependencies:
   '@vueuse/core': 9.1.0_vue@3.2.37
   '@vueuse/head': 0.7.9_vue@3.2.37
   nprogress: 0.2.0
-  pinia: 2.0.18_typescript@4.7.4+vue@3.2.37
+  pinia: 2.0.20_typescript@4.7.4+vue@3.2.37
   prism-theme-vars: 0.2.3
   vue: 3.2.37
   vue-demi: 0.13.8_vue@3.2.37
@@ -5904,8 +5904,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /pinia/2.0.18_typescript@4.7.4+vue@3.2.37:
-    resolution: {integrity: sha512-I5MW05UVX6a5Djka136oH3VzYFiZUgeOApBwFjMx6pL91eHtGVlE3adjNUKLgtwGnrxiBRuJ8+4R3LKJKwnyZg==}
+  /pinia/2.0.20_typescript@4.7.4+vue@3.2.37:
+    resolution: {integrity: sha512-fdHHumXW/0U5HhxmY1emo3I4z85p8NJPdbtFQSlmJXFe3ktuF0pYNVgVtk2q+j2zCtTufY763xzaEMx0t6T59g==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
