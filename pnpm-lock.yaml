@@ -19,7 +19,7 @@ specifiers:
   eslint: 8.23.0
   https-localhost: 4.7.1
   markdown-it-link-attributes: 4.0.1
-  markdown-it-prism: 2.2.5
+  markdown-it-prism: 2.3.0
   nprogress: 0.2.0
   pinia: 2.0.21
   prism-theme-vars: 0.2.3
@@ -68,7 +68,7 @@ devDependencies:
   eslint: 8.23.0
   https-localhost: 4.7.1
   markdown-it-link-attributes: 4.0.1
-  markdown-it-prism: 2.2.5
+  markdown-it-prism: 2.3.0
   typescript: 4.7.4
   unplugin-auto-import: 0.11.2_@vueuse+core@9.1.1+vite@3.0.9
   unplugin-icons: 0.14.8_b221727975920efc8b2b6c5f51bbba32
@@ -5364,8 +5364,8 @@ packages:
     resolution: {integrity: sha512-pg5OK0jPLg62H4k7M9mRJLT61gUp9nvG0XveKYHMOOluASo9OEF13WlXrpAp2aj35LbedAy3QOCgQCw0tkLKAQ==}
     dev: true
 
-  /markdown-it-prism/2.2.5:
-    resolution: {integrity: sha512-joodcO4elSJeeQGzf47hPxFDlzDpYme7aaJ/0TyTcAAKq7oSzaodJ2VpwRMy1rfoup8+v8CwEDcf8QKn08ixSw==}
+  /markdown-it-prism/2.3.0:
+    resolution: {integrity: sha512-ePtHY80gZyeje4bn3R3SL0jpd1C9HFaYffJW2Ma0YD+tspqa2v9TuVwUyFwboFu4jnFNcO8oPQROgbcYJbmBvw==}
     engines: {node: '>=6.0.0'}
     dependencies:
       prismjs: 1.29.0
