@@ -12,7 +12,7 @@ specifiers:
   '@vue/compiler-sfc': 3.2.39
   '@vue/server-renderer': 3.2.39
   '@vueuse/core': 9.2.0
-  '@vueuse/head': 0.7.10
+  '@vueuse/head': 0.7.11
   '@windicss/plugin-icons': 1.0.2
   critters: 0.0.16
   cross-env: 7.0.3
@@ -42,7 +42,7 @@ specifiers:
 
 dependencies:
   '@vueuse/core': 9.2.0_vue@3.2.39
-  '@vueuse/head': 0.7.10_vue@3.2.39
+  '@vueuse/head': 0.7.11_vue@3.2.39
   nprogress: 0.2.0
   pinia: 2.0.22_typescript@4.8.3+vue@3.2.39
   prism-theme-vars: 0.2.3
@@ -79,7 +79,7 @@ devDependencies:
   vite-plugin-pwa: 0.12.2_vite@3.1.0
   vite-plugin-vue-layouts: 0.7.0_0223374f7bfc71e61cbcbffa94314244
   vite-plugin-windicss: 1.8.4_vite@3.1.0
-  vite-ssg: 0.20.2_1021598cd8ac7c5215512703827a117a
+  vite-ssg: 0.20.2_d4ed91e44bd745399b2481cc4d42f18b
   vue-tsc: 0.38.3_typescript@4.8.3
 
 packages:
@@ -2135,11 +2135,12 @@ packages:
       - '@vue/composition-api'
       - vue
 
-  /@vueuse/head/0.7.10_vue@3.2.39:
-    resolution: {integrity: sha512-hkvxpl99xiziDV7qAMtuzTZt5oHn6sOpdUuSlT27KhB/jVSpPrrIUKD1L/0JhLw8gCQoHGxmWalc3P7AYuzkoA==}
+  /@vueuse/head/0.7.11_vue@3.2.39:
+    resolution: {integrity: sha512-qW2VbJnQ7c1nHqt1wWQYtPf6pMKghcBsCGQd76zFSzKZXncjOYV1I5dZcmAdj3E30JP0WKWCItVbV/cgSAPipA==}
     peerDependencies:
       vue: '>=2.7 || >=3'
     dependencies:
+      '@zhead/schema-vue': 0.7.1_vue@3.2.39
       vue: 3.2.39
 
   /@vueuse/metadata/8.9.4:
@@ -2210,6 +2211,17 @@ packages:
     transitivePeerDependencies:
       - encoding
     dev: true
+
+  /@zhead/schema-vue/0.7.1_vue@3.2.39:
+    resolution: {integrity: sha512-puEmNJOjfC5IRJqc5p0GEemWP1B25YYRMZ2RM10UrJXGjR+cGOZ+PYQHoBIl9Nf5kJVzhokg1H99HE6Wnyx+qA==}
+    peerDependencies:
+      vue: '>=2.7 || >=3'
+    dependencies:
+      '@zhead/schema': 0.7.1
+      vue: 3.2.39
+
+  /@zhead/schema/0.7.1:
+    resolution: {integrity: sha512-3FjTUj8YBN45PCW4YSosV9LjBu6HnKetk0aYtaZ7HffgpSlAIl/eCaem8T34KJZ7/lRsvoGPcDDkaAzyvGqi0g==}
 
   /abab/2.0.6:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==}
@@ -7547,7 +7559,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-ssg/0.20.2_1021598cd8ac7c5215512703827a117a:
+  /vite-ssg/0.20.2_d4ed91e44bd745399b2481cc4d42f18b:
     resolution: {integrity: sha512-XtBgJEDrN9cL6pgzXvThrTS7Pm5zwZZnBt50EmL/O+QbdhD/ZjCbcp4GmIrWFBWjVBFcgfwgPccmWv3DAF6s/w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -7561,7 +7573,7 @@ packages:
       critters:
         optional: true
     dependencies:
-      '@vueuse/head': 0.7.10_vue@3.2.39
+      '@vueuse/head': 0.7.11_vue@3.2.39
       critters: 0.0.16
       fs-extra: 10.1.0
       html-minifier: 4.0.0
