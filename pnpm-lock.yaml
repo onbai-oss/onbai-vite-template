@@ -29,7 +29,7 @@ specifiers:
   unplugin-vue-components: 0.22.8
   vite: 3.1.8
   vite-plugin-md: 0.14.1
-  vite-plugin-pages: 0.26.0
+  vite-plugin-pages: 0.27.0
   vite-plugin-pwa: 0.12.2
   vite-plugin-vue-layouts: 0.7.0
   vite-plugin-windicss: 1.8.4
@@ -75,7 +75,7 @@ devDependencies:
   unplugin-vue-components: 0.22.8_vue@3.2.41
   vite: 3.1.8
   vite-plugin-md: 0.14.1_vite@3.1.8+vue@3.2.41
-  vite-plugin-pages: 0.26.0_c7c47a0c67d2392b5059a62c2d4f04df
+  vite-plugin-pages: 0.27.0_c7c47a0c67d2392b5059a62c2d4f04df
   vite-plugin-pwa: 0.12.2_vite@3.1.8
   vite-plugin-vue-layouts: 0.7.0_4a56688d9ba6c3c939a5213abd218cc4
   vite-plugin-windicss: 1.8.4_vite@3.1.8
@@ -7509,8 +7509,8 @@ packages:
       - vue
     dev: true
 
-  /vite-plugin-pages/0.26.0_c7c47a0c67d2392b5059a62c2d4f04df:
-    resolution: {integrity: sha512-yJZvwHEt7puYIf19S89IvkDsWPjWleSied4H8hmdW6i8buCA93z1UAU1ipW1d8fNKrC4FzXsUHHbPm6+kl1p9w==}
+  /vite-plugin-pages/0.27.0_c7c47a0c67d2392b5059a62c2d4f04df:
+    resolution: {integrity: sha512-fLuBd8U9jcfB+MXj9yEsq6AHa0AHCP4Fhi7LCcCWJeL28Lx3o5B0uoBUhCZ+xwsnNs4GZwPOfgBG3yHKMsMNnA==}
     peerDependencies:
       '@vue/compiler-sfc': ^2.7.0 || ^3.0.0
       vite: ^2.0.0 || ^3.0.0-0
@@ -7523,12 +7523,12 @@ packages:
       debug: 4.3.4
       deep-equal: 2.0.5
       extract-comments: 1.1.0
-      fast-glob: 3.2.11
+      fast-glob: 3.2.12
       json5: 2.2.1
       local-pkg: 0.4.2
       picocolors: 1.0.0
       vite: 3.1.8
-      yaml: 2.1.1
+      yaml: 2.1.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -8079,7 +8079,7 @@ packages:
     dependencies:
       eslint-visitor-keys: 3.3.0
       lodash: 4.17.21
-      yaml: 2.1.1
+      yaml: 2.1.3
     dev: true
 
   /yaml/1.10.2:
@@ -8087,8 +8087,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /yaml/2.1.1:
-    resolution: {integrity: sha512-o96x3OPo8GjWeSLF+wOAbrPfhFOGY0W00GNaxCDv+9hkcDJEnev1yh8S7pgHF0ik6zc8sQLuL8hjHjJULZp8bw==}
+  /yaml/2.1.3:
+    resolution: {integrity: sha512-AacA8nRULjKMX2DvWvOAdBZMOfQlypSFkjcOcu9FalllIDJ1kvlREzcdIZmidQUqqeMv7jorHjq2HlLv/+c2lg==}
     engines: {node: '>= 14'}
     dev: true
 
