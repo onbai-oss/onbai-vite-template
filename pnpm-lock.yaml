@@ -12,7 +12,7 @@ specifiers:
   '@vue/compiler-sfc': 3.2.45
   '@vue/server-renderer': 3.2.45
   '@vueuse/core': 9.5.0
-  '@vueuse/head': 1.0.13
+  '@vueuse/head': 1.0.16
   '@windicss/plugin-icons': 1.0.2
   critters: 0.0.16
   cross-env: 7.0.3
@@ -42,7 +42,7 @@ specifiers:
 
 dependencies:
   '@vueuse/core': 9.5.0_vue@3.2.45
-  '@vueuse/head': 1.0.13_vue@3.2.45
+  '@vueuse/head': 1.0.16_vue@3.2.45
   nprogress: 0.2.0
   pinia: 2.0.23_typescript@4.9.3+vue@3.2.45
   prism-theme-vars: 0.2.3
@@ -79,7 +79,7 @@ devDependencies:
   vite-plugin-pwa: 0.12.2_vite@3.2.4
   vite-plugin-vue-layouts: 0.7.0_2bbaae852c9f4c12089848032f2e5c40
   vite-plugin-windicss: 1.8.4_vite@3.2.4
-  vite-ssg: 0.21.2_359882b60bd034cb7be6c6644e6a70c2
+  vite-ssg: 0.21.2_e32bdf2ed6f1f34648cd73d0950c7af7
   vue-tsc: 1.0.0_typescript@4.9.3
 
 packages:
@@ -1992,28 +1992,28 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@unhead/dom/0.6.7:
-    resolution: {integrity: sha512-HUp8ygfQ7VfpEouy26nLsuk6Y5ii5UldoC1NdTuzHSxkYwlq0v4rMpiO1f7T/0i9D7RJDpAp8LdhsHKgcEmRiA==}
+  /@unhead/dom/1.0.2:
+    resolution: {integrity: sha512-AAiYzDmwTTePJu5ZBypPIJidQMDS2WrCXQfe6KJIJtgLss0oXNllve4XVjPEDVh31lfAna89KfVPb/2z0g71pg==}
     dependencies:
-      '@unhead/schema': 0.6.7
+      '@unhead/schema': 1.0.2
 
-  /@unhead/schema/0.6.7:
-    resolution: {integrity: sha512-wVf3Zu7deua63J/HYKoUXUkG0wZLPnKws1DNpSJkhNrjbpdzvsfI08lPIkW1ISqddQiLFXOgcnbhYrhcD7ZZYw==}
+  /@unhead/schema/1.0.2:
+    resolution: {integrity: sha512-/LyNATQ6zHxZBgnTvTQwYJTZLJjx69/2DvaCcikyEj+y6rjhd77osqUb4Qmt2GxYPbVjuL6J5i5wIyES51RZhw==}
     dependencies:
-      '@zhead/schema': 1.0.0-beta.13
+      '@zhead/schema': 1.0.3
       hookable: 5.4.1
 
-  /@unhead/ssr/0.6.7:
-    resolution: {integrity: sha512-jvEJER7dMSEtI6u60OrEz4gwhmQDGbo086HXdIYoT7RoaJ/YQa/CUAHRfLTO6F657iYs42VPFM3yRCVUbexZhA==}
+  /@unhead/ssr/1.0.2:
+    resolution: {integrity: sha512-OZSuYm/BkiZXgU1bAK7Oc/KfJrtrGLSHE7u95UYLhd3vobWvznfTOZM1ZHkORaCzm1twe4nIMHm1ion73M/9Gg==}
     dependencies:
-      '@unhead/schema': 0.6.7
+      '@unhead/schema': 1.0.2
 
-  /@unhead/vue/0.6.7_vue@3.2.45:
-    resolution: {integrity: sha512-9qQ90WtOoQpXihM/MzDHiLWZ53HcZg9Xynf8PhY+004wLfj9e2cE2jSms1mjdP+BC7wVoeENQ9NCv4fOa6l6MQ==}
+  /@unhead/vue/1.0.2_vue@3.2.45:
+    resolution: {integrity: sha512-AWBJoiN+kNXn+lFmlELkRqiY54x6ymhA7lWfpgpgH+nJ7AGhqkavv7UHZHL+/G54Wjl3DFcZIm262iZqv0yqyQ==}
     peerDependencies:
       vue: '>=2.7 || >=3'
     dependencies:
-      '@unhead/schema': 0.6.7
+      '@unhead/schema': 1.0.2
       hookable: 5.4.1
       vue: 3.2.45
 
@@ -2235,15 +2235,15 @@ packages:
       - '@vue/composition-api'
       - vue
 
-  /@vueuse/head/1.0.13_vue@3.2.45:
-    resolution: {integrity: sha512-QJ69f+V0blbroHPuOAYBQZek31kMmFttgUj+QmL+rnXgFUfRXj5rqIDC2chFBSsjHcWl6KfzwPbou5mjCVJAgw==}
+  /@vueuse/head/1.0.16_vue@3.2.45:
+    resolution: {integrity: sha512-0nYyrnMh42hE4uL3E0OYY5lFg03BIL26+pE1e6285Oh7pebHgmZlmSCFRmLAlVMSxhp/+6aOrIZLIObm7SKNfg==}
     peerDependencies:
       vue: '>=2.7 || >=3'
     dependencies:
-      '@unhead/dom': 0.6.7
-      '@unhead/schema': 0.6.7
-      '@unhead/ssr': 0.6.7
-      '@unhead/vue': 0.6.7_vue@3.2.45
+      '@unhead/dom': 1.0.2
+      '@unhead/schema': 1.0.2
+      '@unhead/ssr': 1.0.2
+      '@unhead/vue': 1.0.2_vue@3.2.45
       vue: 3.2.45
 
   /@vueuse/metadata/8.9.4:
@@ -2315,8 +2315,8 @@ packages:
       - encoding
     dev: true
 
-  /@zhead/schema/1.0.0-beta.13:
-    resolution: {integrity: sha512-P1A1vRGFBhITco8Iw4/hvnDYoE/SoVrd71dW1pBFdXJb3vP+pBtoOuhbEKy0ROJGOyzQuqvFibcwzyLlWMqNiQ==}
+  /@zhead/schema/1.0.3:
+    resolution: {integrity: sha512-hpG+fENrSV82trtmtO7sAdPTQLnfhZIGtqvgN4fIUfEuyILF1GwAYjgFT/FdUaZ8yBSsYt5U47O35tOE2Ts1HA==}
 
   /abab/2.0.6:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==}
@@ -7595,7 +7595,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-ssg/0.21.2_359882b60bd034cb7be6c6644e6a70c2:
+  /vite-ssg/0.21.2_e32bdf2ed6f1f34648cd73d0950c7af7:
     resolution: {integrity: sha512-srcxakrqBaubPr6KuhMmkmrdm1Ye1zIClWOpV3TSk4viyy0QymZWwfPAPXjCwjzmPDY/QVHTffuMTNjoM4xkbA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -7611,7 +7611,7 @@ packages:
       vue-router:
         optional: true
     dependencies:
-      '@vueuse/head': 1.0.13_vue@3.2.45
+      '@vueuse/head': 1.0.16_vue@3.2.45
       critters: 0.0.16
       fs-extra: 10.1.0
       html-minifier: 4.0.0
