@@ -26,7 +26,7 @@ specifiers:
   typescript: 4.9.3
   unplugin-auto-import: 0.12.0
   unplugin-icons: 0.14.14
-  unplugin-vue-components: 0.22.9
+  unplugin-vue-components: 0.22.11
   vite: 3.2.4
   vite-plugin-md: 0.14.1
   vite-plugin-pages: 0.27.1
@@ -72,7 +72,7 @@ devDependencies:
   typescript: 4.9.3
   unplugin-auto-import: 0.12.0_@vueuse+core@9.5.0
   unplugin-icons: 0.14.14_@vue+compiler-sfc@3.2.45
-  unplugin-vue-components: 0.22.9_vue@3.2.45
+  unplugin-vue-components: 0.22.11_vue@3.2.45
   vite: 3.2.4
   vite-plugin-md: 0.14.1_vite@3.2.4+vue@3.2.45
   vite-plugin-pages: 0.27.1_a0889f028416aa81ae97d37679e6b72f
@@ -202,10 +202,6 @@ packages:
 
   /@antfu/utils/0.5.2:
     resolution: {integrity: sha512-CQkeV+oJxUazwjlHD0/3ZD08QWKuGQkhnrKo3e6ly5pd48VUpXbb77q0xMU4+vc2CkJnDS02Eq/M9ugyX20XZA==}
-    dev: true
-
-  /@antfu/utils/0.6.0:
-    resolution: {integrity: sha512-VauUKmo22NYo3y6fIjGjVU7LJyhaedYL9kyabdvIIIl7P+qbNPbQiaLwwk4UOU4McFfA2eg+aIWpEYhkHzsE9Q==}
     dev: true
 
   /@antfu/utils/0.6.3:
@@ -7413,8 +7409,8 @@ packages:
       - supports-color
     dev: true
 
-  /unplugin-vue-components/0.22.9_vue@3.2.45:
-    resolution: {integrity: sha512-qBvooq3EgpjtYicxeccRUGUBBQCCw9rJ0kHPZPOSJd8TBZViSv86vuKLTRDHPyjWtclwOIkVStZJfPdJFhYUMw==}
+  /unplugin-vue-components/0.22.11_vue@3.2.45:
+    resolution: {integrity: sha512-GTzqPl0Ek8fq8qMufjR6hvtnjnSwMpJ1Rg2Ez9AcKZVp1piWoU/Q4FDnI9wHVKX8eenYL0nqAF3ejYAk1TUfqQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@babel/parser': ^7.15.8
@@ -7423,7 +7419,7 @@ packages:
       '@babel/parser':
         optional: true
     dependencies:
-      '@antfu/utils': 0.6.0
+      '@antfu/utils': 0.7.0
       '@rollup/pluginutils': 5.0.2
       chokidar: 3.5.3
       debug: 4.3.4
@@ -7432,20 +7428,11 @@ packages:
       magic-string: 0.26.7
       minimatch: 5.1.0
       resolve: 1.22.1
-      unplugin: 0.10.2
+      unplugin: 1.0.0
       vue: 3.2.45
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: true
-
-  /unplugin/0.10.2:
-    resolution: {integrity: sha512-6rk7GUa4ICYjae5PrAllvcDeuT8pA9+j5J5EkxbMFaV+SalHhxZ7X2dohMzu6C3XzsMT+6jwR/+pwPNR3uK9MA==}
-    dependencies:
-      acorn: 8.8.1
-      chokidar: 3.5.3
-      webpack-sources: 3.2.3
-      webpack-virtual-modules: 0.4.6
     dev: true
 
   /unplugin/1.0.0:
