@@ -33,7 +33,7 @@ specifiers:
   vite-plugin-pwa: 0.12.2
   vite-plugin-vue-layouts: 0.7.0
   vite-plugin-windicss: 1.8.4
-  vite-ssg: 0.22.0
+  vite-ssg: 0.22.1
   vue: 3.2.45
   vue-demi: 0.13.11
   vue-i18n: 9.2.2
@@ -79,7 +79,7 @@ devDependencies:
   vite-plugin-pwa: 0.12.2_vite@3.2.5
   vite-plugin-vue-layouts: 0.7.0_f8e7347b28104238297c347aea68fe2d
   vite-plugin-windicss: 1.8.4_vite@3.2.5
-  vite-ssg: 0.22.0_9b47d0bb103273254d3205c55b8589cb
+  vite-ssg: 0.22.1_9b47d0bb103273254d3205c55b8589cb
   vue-tsc: 1.0.0_typescript@4.9.4
 
 packages:
@@ -1993,10 +1993,10 @@ packages:
     dependencies:
       '@unhead/schema': 1.0.10
 
-  /@unhead/dom/1.0.2:
-    resolution: {integrity: sha512-AAiYzDmwTTePJu5ZBypPIJidQMDS2WrCXQfe6KJIJtgLss0oXNllve4XVjPEDVh31lfAna89KfVPb/2z0g71pg==}
+  /@unhead/dom/1.0.13:
+    resolution: {integrity: sha512-ErfhK3Nwk3kpxnPEOrkruKAdS3/TrNlKs0nYtKgFJ1ywJYg+uNwRFDe82v4JdUMhnfmbgL/qcO3PTx3Dv09IEQ==}
     dependencies:
-      '@unhead/schema': 1.0.2
+      '@unhead/schema': 1.0.13
     dev: true
 
   /@unhead/schema/1.0.10:
@@ -2005,8 +2005,8 @@ packages:
       '@zhead/schema': 1.0.7
       hookable: 5.4.2
 
-  /@unhead/schema/1.0.2:
-    resolution: {integrity: sha512-/LyNATQ6zHxZBgnTvTQwYJTZLJjx69/2DvaCcikyEj+y6rjhd77osqUb4Qmt2GxYPbVjuL6J5i5wIyES51RZhw==}
+  /@unhead/schema/1.0.13:
+    resolution: {integrity: sha512-K8SiAEkM8G7GaF1QvsKlthLmRqGB8R9SvZXMCucZqb2VQ6bU4IFSs/4q6dKxmV0fXb5AHdKUL9+rX/4rQ6FsZg==}
     dependencies:
       '@zhead/schema': 1.0.7
       hookable: 5.4.2
@@ -4603,9 +4603,9 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /fs-extra/10.1.0:
-    resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
-    engines: {node: '>=12'}
+  /fs-extra/11.1.0:
+    resolution: {integrity: sha512-0rcTq621PD5jM/e0a3EJoGC/1TC5ZBCERW82LQuwfGnCa1V8w7dpYH1yNu+SLb6E5dkeCBzKEyLGlFrnr+dUyw==}
+    engines: {node: '>=14.14'}
     dependencies:
       graceful-fs: 4.2.10
       jsonfile: 6.1.0
@@ -6312,8 +6312,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.7.1:
-    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+  /prettier/2.8.1:
+    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -7611,14 +7611,14 @@ packages:
       - supports-color
     dev: true
 
-  /vite-ssg/0.22.0_9b47d0bb103273254d3205c55b8589cb:
-    resolution: {integrity: sha512-GW8hARA4lT4fEAfxfnSEplV5JKQEM15yTVI8SZefYW69xfBVfujZrlqKqory+kHi7rgm7ZEhH8Uv82pdWETiSQ==}
+  /vite-ssg/0.22.1_9b47d0bb103273254d3205c55b8589cb:
+    resolution: {integrity: sha512-aiFbedElOR/amu0VPfWNj2oR7V9zX6oS4jzWEkOe5fJuZIV2+FnUyiupoyoo3lv3njgS2GENNpmxijN6tpJsTA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
       '@vueuse/head': ^1.0.0
       critters: ^0.0.16
-      vite: ^2.0.0 || ^3.0.0-0
+      vite: ^2.0.0 || ^3.0.0 || ^4.0.0
       vue: ^3.2.10
       vue-router: ^4.0.1
     peerDependenciesMeta:
@@ -7627,15 +7627,15 @@ packages:
       vue-router:
         optional: true
     dependencies:
-      '@unhead/dom': 1.0.2
+      '@unhead/dom': 1.0.13
       '@vueuse/head': 1.0.22_vue@3.2.45
       critters: 0.0.16
-      fs-extra: 10.1.0
+      fs-extra: 11.1.0
       html-minifier: 4.0.0
       html5parser: 2.0.2
       jsdom: 20.0.3
       kolorist: 1.6.0
-      prettier: 2.7.1
+      prettier: 2.8.1
       vite: 3.2.5
       vue: 3.2.45
       vue-router: 4.1.1_vue@3.2.45
