@@ -44,7 +44,7 @@
         "vite": "4.1.4",
         "vite-plugin-md": "0.14.1",
         "vite-plugin-pages": "0.28.0",
-        "vite-plugin-pwa": "0.12.2",
+        "vite-plugin-pwa": "0.14.5",
         "vite-plugin-vue-layouts": "0.8.0",
         "vite-plugin-windicss": "1.8.4",
         "vite-ssg": "0.22.1",
