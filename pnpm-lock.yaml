@@ -104,8 +104,8 @@ devDependencies:
     specifier: 0.14.1
     version: 0.14.1(vite@4.1.4)(vue@3.2.47)
   vite-plugin-pages:
-    specifier: 0.30.1
-    version: 0.30.1(@vue/compiler-sfc@3.2.47)(vite@4.1.4)
+    specifier: 0.31.0
+    version: 0.31.0(@vue/compiler-sfc@3.2.47)(vite@4.1.4)
   vite-plugin-pwa:
     specifier: 0.14.5
     version: 0.14.5(vite@4.1.4)(workbox-build@6.6.0)(workbox-window@6.6.0)
@@ -8068,8 +8068,8 @@ packages:
       - vue
     dev: true
 
-  /vite-plugin-pages@0.30.1(@vue/compiler-sfc@3.2.47)(vite@4.1.4):
-    resolution: {integrity: sha512-PHneaWBKA4MaUn0/KTBG+dGT+5V5VhTnOnMCE+HJmixxEkFj7PrgSVGFJjWvgHUflrRE7p2O67iC5cIWLzPDyQ==}
+  /vite-plugin-pages@0.31.0(@vue/compiler-sfc@3.2.47)(vite@4.1.4):
+    resolution: {integrity: sha512-fw3onBfVTXQI7rOzAbSZhmfwvk50+3qNnGZpERjmD93c8nEjrGLyd53eFXYMxcJV4KA1vzi4qIHt2+6tS4dEMw==}
     peerDependencies:
       '@vue/compiler-sfc': ^2.7.0 || ^3.0.0
       vite: ^2.0.0 || ^3.0.0-0 || ^4.0.0
