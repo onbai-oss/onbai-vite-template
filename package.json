@@ -9,7 +9,7 @@
         "preview-https": "serve dist"
     },
     "dependencies": {
-        "@vueuse/core": "9.13.0",
+        "@vueuse/core": "10.3.0",
         "@vueuse/head": "1.1.26",
         "nprogress": "0.2.0",
         "pinia": "2.1.6",
