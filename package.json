@@ -39,7 +39,7 @@
         "markdown-it-prism": "2.3.0",
         "typescript": "5.1.6",
         "unplugin-auto-import": "0.15.1",
-        "unplugin-icons": "0.15.3",
+        "unplugin-icons": "0.16.5",
         "unplugin-vue-components": "0.25.1",
         "vite": "4.1.4",
         "vite-plugin-md": "0.14.1",
