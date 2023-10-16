@@ -12,7 +12,7 @@
         "@vueuse/core": "10.5.0",
         "@vueuse/head": "2.0.0",
         "nprogress": "0.2.0",
-        "pinia": "2.1.6",
+        "pinia": "2.1.7",
         "prism-theme-vars": "0.2.4",
         "vue": "3.3.4",
         "vue-demi": "0.14.6",
