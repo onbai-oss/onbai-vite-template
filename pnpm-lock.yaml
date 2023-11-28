@@ -113,8 +113,8 @@ devDependencies:
     specifier: 0.8.0
     version: 0.8.0(vite@4.1.4)(vue-router@4.2.5)(vue@3.3.8)
   vite-plugin-windicss:
-    specifier: 1.9.1
-    version: 1.9.1(vite@4.1.4)
+    specifier: 1.9.2
+    version: 1.9.2(vite@4.1.4)
   vite-ssg:
     specifier: 0.23.3
     version: 0.23.3(critters@0.0.20)(vite@4.1.4)(vue-router@4.2.5)(vue@3.3.8)
@@ -2896,8 +2896,8 @@ packages:
       vue-demi: 0.14.6(vue@3.3.8)
     dev: true
 
-  /@windicss/config@1.9.1:
-    resolution: {integrity: sha512-MjutTiS9XIteriwkH9D+que+bILbpulekYzjJGQDg3Sb2H87aOcO30f7N11ZiHF5OYoZn4yJz4lDbB3A6IuXfQ==}
+  /@windicss/config@1.9.2:
+    resolution: {integrity: sha512-5yOaarc7Yce08i3NCNRNMUb/tfmVcFo801UwgM27/dXWWfG30wuPONms8VrQurPZlcZTayPKX0svOx0doWdnPQ==}
     dependencies:
       debug: 4.3.4(supports-color@8.1.1)
       jiti: 1.18.2
@@ -2910,13 +2910,13 @@ packages:
     resolution: {integrity: sha512-PN6+y9TwEFQn+x6hmCUbCH2YzCfLyImcgQZQQAZ3kCZvqvZDyfKgS9TuhHY1Y0vp12lO6ULFUWpH6YIVGOPM6A==}
     dev: true
 
-  /@windicss/plugin-utils@1.9.1:
-    resolution: {integrity: sha512-sz/Z2sxUZIkJ2nVeTmtYTtXhWxe/yTTkM5nqU6eKhP0n6waipTCJJdLvWoZcgzQBbBCL/JLRQd/9BYsBqKuLDQ==}
+  /@windicss/plugin-utils@1.9.2:
+    resolution: {integrity: sha512-P019ZVYJSBVzMBhYSzcMIWpMjZZWEynF4s7oXgP9+5msH4/Ek55erFXY6r+e3sysBFohnIr3hosQ5dp9FMG16Q==}
     dependencies:
       '@antfu/utils': 0.7.6
-      '@windicss/config': 1.9.1
+      '@windicss/config': 1.9.2
       debug: 4.3.4(supports-color@8.1.1)
-      fast-glob: 3.2.12
+      fast-glob: 3.3.1
       magic-string: 0.30.5
       micromatch: 4.0.5
       windicss: 3.5.6
@@ -8394,12 +8394,12 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-windicss@1.9.1(vite@4.1.4):
-    resolution: {integrity: sha512-CWm1b/tXVCJTbEGn4oB8B7Gev9xDuY9k4E/KiJqDuLYspBUFQyZKPF2mSZ3DfNdojsfqgzxu9ervqvlb9jJ7fw==}
+  /vite-plugin-windicss@1.9.2(vite@4.1.4):
+    resolution: {integrity: sha512-QRWOFgdsbj00DNHm8vM51gbSQeuyXC73uGtp//cMHMeMstFD83fbX7x6MmpjC04dijWMxyAuD90sUD0Q/pjnnQ==}
     peerDependencies:
-      vite: ^2.0.1 || ^3.0.0 || ^4.0.0
+      vite: ^2.0.1 || ^3.0.0 || ^4.0.0 || ^5.0.0
     dependencies:
-      '@windicss/plugin-utils': 1.9.1
+      '@windicss/plugin-utils': 1.9.2
       debug: 4.3.4(supports-color@8.1.1)
       kolorist: 1.8.0
       vite: 4.1.4(@types/node@20.3.1)
