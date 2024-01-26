@@ -27,8 +27,8 @@ dependencies:
     specifier: 0.14.6
     version: 0.14.6(vue@3.4.15)
   vue-i18n:
-    specifier: 9.6.2
-    version: 9.6.2(vue@3.4.15)
+    specifier: 9.9.0
+    version: 9.9.0(vue@3.4.15)
   vue-router:
     specifier: 4.2.5
     version: 4.2.5(vue@3.4.15)
@@ -42,7 +42,7 @@ devDependencies:
     version: 2.2.38
   '@intlify/vite-plugin-vue-i18n':
     specifier: 6.0.3
-    version: 6.0.3(vite@5.0.12)(vue-i18n@9.6.2)
+    version: 6.0.3(vite@5.0.12)(vue-i18n@9.9.0)
   '@types/markdown-it-link-attributes':
     specifier: 3.0.4
     version: 3.0.4
@@ -2014,7 +2014,7 @@ packages:
       - supports-color
     dev: true
 
-  /@intlify/bundle-utils@3.4.0(vue-i18n@9.6.2):
+  /@intlify/bundle-utils@3.4.0(vue-i18n@9.9.0):
     resolution: {integrity: sha512-2UQkqiSAOSPEHMGWlybqWm4G2K0X+FyYho5AwXz6QklSX1EY5EDmOSxZmwscn2qmKBnp6OYsme5kUrnN9xrWzQ==}
     engines: {node: '>= 12'}
     peerDependencies:
@@ -2030,16 +2030,16 @@ packages:
       '@intlify/shared': 9.4.1
       jsonc-eslint-parser: 1.4.1
       source-map: 0.6.1
-      vue-i18n: 9.6.2(vue@3.4.15)
+      vue-i18n: 9.9.0(vue@3.4.15)
       yaml-eslint-parser: 0.3.2
     dev: true
 
-  /@intlify/core-base@9.6.2:
-    resolution: {integrity: sha512-ci0j2nbEL/pamvqgcCqyIVeQ3LS41F1IRqI5rCBNnpSp0FjNnH8bpha8R3OifkhqatzlP4wGOuN/UqfLYVDv7g==}
+  /@intlify/core-base@9.9.0:
+    resolution: {integrity: sha512-C7UXPymDIOlMGSNjAhNLtKgzITc/8BjINK5gNKXg8GiWCTwL6n3MWr55czksxn8RM5wTMz0qcLOFT+adtaVQaA==}
     engines: {node: '>= 16'}
     dependencies:
-      '@intlify/message-compiler': 9.6.2
-      '@intlify/shared': 9.6.2
+      '@intlify/message-compiler': 9.9.0
+      '@intlify/shared': 9.9.0
 
   /@intlify/message-compiler@9.4.1:
     resolution: {integrity: sha512-aN2N+dUx320108QhH51Ycd2LEpZ+NKbzyQ2kjjhqMcxhHdxtOnkgdx+MDBhOy/CObwBmhC3Nygzc6hNlfKvPNw==}
@@ -2049,11 +2049,11 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /@intlify/message-compiler@9.6.2:
-    resolution: {integrity: sha512-kgZQL9zeJDeEB5vvD93Y++HvFUELnT48PjnpfCcF3EJaLLVs9he8IzODiNK42Z40lWbFyja0SXJZjsalybQygA==}
+  /@intlify/message-compiler@9.9.0:
+    resolution: {integrity: sha512-yDU/jdUm9KuhEzYfS+wuyja209yXgdl1XFhMlKtXEgSFTxz4COZQCRXXbbH8JrAjMsaJ7bdoPSLsKlY6mXG2iA==}
     engines: {node: '>= 16'}
     dependencies:
-      '@intlify/shared': 9.6.2
+      '@intlify/shared': 9.9.0
       source-map-js: 1.0.2
 
   /@intlify/shared@9.4.1:
@@ -2061,11 +2061,11 @@ packages:
     engines: {node: '>= 16'}
     dev: true
 
-  /@intlify/shared@9.6.2:
-    resolution: {integrity: sha512-9KBcXmJNxElp7QMnU8V0/tScTOitDqyFi4HceEZqJyyDkMi8K5DBPMTIuXIAMmtMlXpe/nj5pke7tRw97VeQRA==}
+  /@intlify/shared@9.9.0:
+    resolution: {integrity: sha512-1ECUyAHRrzOJbOizyGufYP2yukqGrWXtkmTu4PcswVnWbkcjzk3YQGmJ0bLkM7JZ0ZYAaohLGdYvBYnTOGYJ9g==}
     engines: {node: '>= 16'}
 
-  /@intlify/vite-plugin-vue-i18n@6.0.3(vite@5.0.12)(vue-i18n@9.6.2):
+  /@intlify/vite-plugin-vue-i18n@6.0.3(vite@5.0.12)(vue-i18n@9.9.0):
     resolution: {integrity: sha512-6SgNzPAOCR90wvt368lKzi7f/5ZEWJn22UCGvhFsP3XvKqlF3cVzojahgQ6o+LTdCkExeM6wPgd+haFf28E9VQ==}
     engines: {node: '>= 14.6'}
     peerDependencies:
@@ -2080,14 +2080,14 @@ packages:
       vue-i18n:
         optional: true
     dependencies:
-      '@intlify/bundle-utils': 3.4.0(vue-i18n@9.6.2)
+      '@intlify/bundle-utils': 3.4.0(vue-i18n@9.9.0)
       '@intlify/shared': 9.4.1
       '@rollup/pluginutils': 4.2.1
       debug: 4.3.4(supports-color@8.1.1)
       fast-glob: 3.2.12
       source-map: 0.6.1
       vite: 5.0.12
-      vue-i18n: 9.6.2(vue@3.4.15)
+      vue-i18n: 9.9.0(vue@3.4.15)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3844,7 +3844,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /ci-info@3.8.0:
@@ -5625,14 +5625,6 @@ packages:
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
-
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
 
   /fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -7684,7 +7676,7 @@ packages:
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /rollup@2.79.1:
@@ -7692,7 +7684,7 @@ packages:
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /rollup@3.25.1:
@@ -7700,7 +7692,7 @@ packages:
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /rollup@4.9.6:
@@ -8917,7 +8909,7 @@ packages:
       resolve: 1.22.4
       rollup: 2.77.3
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /vite@4.1.4(@types/node@20.3.1):
@@ -8951,7 +8943,7 @@ packages:
       resolve: 1.22.2
       rollup: 3.25.1
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /vite@5.0.12:
@@ -9067,14 +9059,14 @@ packages:
       - supports-color
     dev: true
 
-  /vue-i18n@9.6.2(vue@3.4.15):
-    resolution: {integrity: sha512-J43grTQjPR8LCUxvx3mkoM+11xhTnej1Al4lvJCEeKmQqf8eqbuYPQb54HXnEg/UzZyaxLBAwPAUTbrZ8V7hcg==}
+  /vue-i18n@9.9.0(vue@3.4.15):
+    resolution: {integrity: sha512-xQ5SxszUAqK5n84N+uUyHH/PiQl9xZ24FOxyAaNonmOQgXeN+rD9z/6DStOpOxNFQn4Cgcquot05gZc+CdOujA==}
     engines: {node: '>= 16'}
     peerDependencies:
       vue: ^3.0.0
     dependencies:
-      '@intlify/core-base': 9.6.2
-      '@intlify/shared': 9.6.2
+      '@intlify/core-base': 9.9.0
+      '@intlify/shared': 9.9.0
       '@vue/devtools-api': 6.5.0
       vue: 3.4.15(typescript@5.3.3)
 
