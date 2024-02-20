@@ -42,7 +42,7 @@ devDependencies:
     version: 2.2.38
   '@intlify/vite-plugin-vue-i18n':
     specifier: 6.0.3
-    version: 6.0.3(vite@5.1.1)(vue-i18n@9.9.1)
+    version: 6.0.3(vite@5.1.3)(vue-i18n@9.9.1)
   '@types/markdown-it-link-attributes':
     specifier: 3.0.4
     version: 3.0.4
@@ -57,7 +57,7 @@ devDependencies:
     version: 6.7.5(eslint@8.56.0)(typescript@5.3.3)
   '@vitejs/plugin-vue':
     specifier: 5.0.4
-    version: 5.0.4(vite@5.1.1)(vue@3.4.15)
+    version: 5.0.4(vite@5.1.3)(vue@3.4.15)
   '@vue/compiler-sfc':
     specifier: 3.4.15
     version: 3.4.15
@@ -98,26 +98,26 @@ devDependencies:
     specifier: 0.26.0
     version: 0.26.0(rollup@2.79.1)(vue@3.4.15)
   vite:
-    specifier: 5.1.1
-    version: 5.1.1
+    specifier: 5.1.3
+    version: 5.1.3
   vite-plugin-md:
     specifier: 0.14.1
-    version: 0.14.1(vite@5.1.1)(vue@3.4.15)
+    version: 0.14.1(vite@5.1.3)(vue@3.4.15)
   vite-plugin-pages:
     specifier: 0.32.0
-    version: 0.32.0(@vue/compiler-sfc@3.4.15)(vite@5.1.1)
+    version: 0.32.0(@vue/compiler-sfc@3.4.15)(vite@5.1.3)
   vite-plugin-pwa:
     specifier: 0.14.5
-    version: 0.14.5(vite@5.1.1)(workbox-build@6.6.0)(workbox-window@6.6.0)
+    version: 0.14.5(vite@5.1.3)(workbox-build@6.6.0)(workbox-window@6.6.0)
   vite-plugin-vue-layouts:
     specifier: 0.11.0
-    version: 0.11.0(vite@5.1.1)(vue-router@4.2.5)(vue@3.4.15)
+    version: 0.11.0(vite@5.1.3)(vue-router@4.2.5)(vue@3.4.15)
   vite-plugin-windicss:
     specifier: 1.9.3
-    version: 1.9.3(vite@5.1.1)
+    version: 1.9.3(vite@5.1.3)
   vite-ssg:
     specifier: 0.23.3
-    version: 0.23.3(critters@0.0.20)(vite@5.1.1)(vue-router@4.2.5)(vue@3.4.15)
+    version: 0.23.3(critters@0.0.20)(vite@5.1.3)(vue-router@4.2.5)(vue@3.4.15)
   vue-tsc:
     specifier: 1.8.20
     version: 1.8.20(typescript@5.3.3)
@@ -2070,7 +2070,7 @@ packages:
     resolution: {integrity: sha512-b3Pta1nwkz5rGq434v0psHwEwHGy1pYCttfcM22IE//K9owbpkEvFptx9VcuRAxjQdrO2If249cmDDjBu5wMDA==}
     engines: {node: '>= 16'}
 
-  /@intlify/vite-plugin-vue-i18n@6.0.3(vite@5.1.1)(vue-i18n@9.9.1):
+  /@intlify/vite-plugin-vue-i18n@6.0.3(vite@5.1.3)(vue-i18n@9.9.1):
     resolution: {integrity: sha512-6SgNzPAOCR90wvt368lKzi7f/5ZEWJn22UCGvhFsP3XvKqlF3cVzojahgQ6o+LTdCkExeM6wPgd+haFf28E9VQ==}
     engines: {node: '>= 14.6'}
     peerDependencies:
@@ -2091,7 +2091,7 @@ packages:
       debug: 4.3.4(supports-color@8.1.1)
       fast-glob: 3.2.12
       source-map: 0.6.1
-      vite: 5.1.1
+      vite: 5.1.3
       vue-i18n: 9.9.1(vue@3.4.15)
     transitivePeerDependencies:
       - supports-color
@@ -3030,25 +3030,25 @@ packages:
       vue: 3.4.15(typescript@5.3.3)
     dev: true
 
-  /@vitejs/plugin-vue@2.3.4(vite@5.1.1)(vue@3.4.15):
+  /@vitejs/plugin-vue@2.3.4(vite@5.1.3)(vue@3.4.15):
     resolution: {integrity: sha512-IfFNbtkbIm36O9KB8QodlwwYvTEsJb4Lll4c2IwB3VHc2gie2mSPtSzL0eYay7X2jd/2WX02FjSGTWR6OPr/zg==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 5.1.1
+      vite: 5.1.3
       vue: 3.4.15(typescript@5.3.3)
     dev: true
 
-  /@vitejs/plugin-vue@5.0.4(vite@5.1.1)(vue@3.4.15):
+  /@vitejs/plugin-vue@5.0.4(vite@5.1.3)(vue@3.4.15):
     resolution: {integrity: sha512-WS3hevEszI6CEVEx28F8RjTX97k3KsrcY6kvTg7+Whm5y3oYvcqzVeGCU3hxSAn4uY2CLCkeokkGKpoctccilQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.1.1
+      vite: 5.1.3
       vue: 3.4.15(typescript@5.3.3)
     dev: true
 
@@ -8783,7 +8783,7 @@ packages:
       extsprintf: 1.3.0
     dev: true
 
-  /vite-plugin-md@0.14.1(vite@5.1.1)(vue@3.4.15):
+  /vite-plugin-md@0.14.1(vite@5.1.3)(vue@3.4.15):
     resolution: {integrity: sha512-Td/hSIs3eDl23AEeLVu49+8WOuO689OKI3J3vLaFykpgTGWjc5COhpZvKkEe8LX3//u2YomdN2w8PPmqjE0KMA==}
     peerDependencies:
       vite: ^2.9.0
@@ -8792,7 +8792,7 @@ packages:
       '@rollup/pluginutils': 4.2.1
       '@types/markdown-it': 12.2.3
       '@types/prismjs': 1.26.0
-      '@vitejs/plugin-vue': 2.3.4(vite@5.1.1)(vue@3.4.15)
+      '@vitejs/plugin-vue': 2.3.4(vite@5.1.3)(vue@3.4.15)
       '@vue/runtime-core': 3.3.4
       '@vueuse/core': 8.9.4(vue@3.4.15)
       '@yankeeinlondon/happy-wrapper': 1.0.0
@@ -8802,7 +8802,7 @@ packages:
       happy-dom: 5.4.0
       markdown-it: 13.0.1
       prismjs: 1.29.0
-      vite: 5.1.1
+      vite: 5.1.3
       vue-router: 4.2.5(vue@3.4.15)
     transitivePeerDependencies:
       - '@edge-runtime/vm'
@@ -8820,7 +8820,7 @@ packages:
       - vue
     dev: true
 
-  /vite-plugin-pages@0.32.0(@vue/compiler-sfc@3.4.15)(vite@5.1.1):
+  /vite-plugin-pages@0.32.0(@vue/compiler-sfc@3.4.15)(vite@5.1.3):
     resolution: {integrity: sha512-OxS3n0zUo5wsfgNCAuw2FiG/KD1ipgQV+2Flst4RyeI2iPv+m0YueVq+nx41k5NOWJj/zhqEas6I0b7HXveXjA==}
     peerDependencies:
       '@vue/compiler-sfc': ^2.7.0 || ^3.0.0
@@ -8838,13 +8838,13 @@ packages:
       json5: 2.2.3
       local-pkg: 0.5.0
       picocolors: 1.0.0
-      vite: 5.1.1
+      vite: 5.1.3
       yaml: 2.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-pwa@0.14.5(vite@5.1.1)(workbox-build@6.6.0)(workbox-window@6.6.0):
+  /vite-plugin-pwa@0.14.5(vite@5.1.3)(workbox-build@6.6.0)(workbox-window@6.6.0):
     resolution: {integrity: sha512-LH3VCtoWx0scfim8Ph+daVl45uVRyWzXn3C3GUq92uWUui1p8eh+DjTQ23Pvb7SJ0SJtxZ99LCpOLCkFkaxokg==}
     peerDependencies:
       vite: ^3.1.0 || ^4.0.0
@@ -8856,14 +8856,14 @@ packages:
       fast-glob: 3.2.12
       pretty-bytes: 6.1.0
       rollup: 3.25.1
-      vite: 5.1.1
+      vite: 5.1.3
       workbox-build: 6.6.0
       workbox-window: 6.6.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-vue-layouts@0.11.0(vite@5.1.1)(vue-router@4.2.5)(vue@3.4.15):
+  /vite-plugin-vue-layouts@0.11.0(vite@5.1.3)(vue-router@4.2.5)(vue@3.4.15):
     resolution: {integrity: sha512-uh6NW7lt+aOXujK4eHfiNbeo55K9OTuB7fnv+5RVc4OBn/cZull6ThXdYH03JzKanUfgt6QZ37NbbtJ0og59qw==}
     peerDependencies:
       vite: ^4.0.0 || ^5.0.0
@@ -8872,14 +8872,14 @@ packages:
     dependencies:
       debug: 4.3.4(supports-color@8.1.1)
       fast-glob: 3.3.2
-      vite: 5.1.1
+      vite: 5.1.3
       vue: 3.4.15(typescript@5.3.3)
       vue-router: 4.2.5(vue@3.4.15)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-windicss@1.9.3(vite@5.1.1):
+  /vite-plugin-windicss@1.9.3(vite@5.1.3):
     resolution: {integrity: sha512-PqNiIsrEftCrgn0xIpj8ZMSdpz8NZn+OJ3gKXnOF+hFzbHFrKGJA49ViOUKCHDOquxoGBZMmTjepWr8GrftKcQ==}
     peerDependencies:
       vite: ^2.0.1 || ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -8887,13 +8887,13 @@ packages:
       '@windicss/plugin-utils': 1.9.3
       debug: 4.3.4(supports-color@8.1.1)
       kolorist: 1.8.0
-      vite: 5.1.1
+      vite: 5.1.3
       windicss: 3.5.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-ssg@0.23.3(critters@0.0.20)(vite@5.1.1)(vue-router@4.2.5)(vue@3.4.15):
+  /vite-ssg@0.23.3(critters@0.0.20)(vite@5.1.3)(vue-router@4.2.5)(vue@3.4.15):
     resolution: {integrity: sha512-SinJROcjl3/wvfB9fTMFjcGnDj42AOaYG4FAPz4FVnazX87qgb1U+q87JrgzLz2PiYKAacPYBMQSHTIjvsnJyw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -8917,7 +8917,7 @@ packages:
       jsdom: 22.1.0
       kolorist: 1.8.0
       prettier: 3.0.3
-      vite: 5.1.1
+      vite: 5.1.3
       vue: 3.4.15(typescript@5.3.3)
       vue-router: 4.2.5(vue@3.4.15)
       yargs: 17.7.2
@@ -8945,7 +8945,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.14.54
-      postcss: 8.4.33
+      postcss: 8.4.35
       resolve: 1.22.4
       rollup: 2.77.3
     optionalDependencies:
@@ -8979,15 +8979,15 @@ packages:
     dependencies:
       '@types/node': 20.3.1
       esbuild: 0.16.17
-      postcss: 8.4.33
+      postcss: 8.4.35
       resolve: 1.22.2
       rollup: 3.25.1
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
 
-  /vite@5.1.1:
-    resolution: {integrity: sha512-wclpAgY3F1tR7t9LL5CcHC41YPkQIpKUGeIuT8MdNwNZr6OqOTLs7JX5vIHAtzqLWXts0T+GDrh9pN2arneKqg==}
+  /vite@5.1.3:
+    resolution: {integrity: sha512-UfmUD36DKkqhi/F75RrxvPpry+9+tTkrXfMNZD+SboZqBCMsxKtO52XeGzzuh7ioz+Eo/SYDBbdb0Z7vgcDJew==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -9349,6 +9349,7 @@ packages:
 
   /workbox-google-analytics@6.6.0:
     resolution: {integrity: sha512-p4DJa6OldXWd6M9zRl0H6vB9lkrmqYFkRQ2xEiNdBFp9U0LhsGO7hsBscVEyH9H2/3eZZt8c97NB2FD9U2NJ+Q==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.6.0
       workbox-core: 6.6.0
