@@ -104,8 +104,8 @@ devDependencies:
     specifier: 0.14.1
     version: 0.14.1(vite@5.2.11)(vue@3.4.27)
   vite-plugin-pages:
-    specifier: 0.32.1
-    version: 0.32.1(@vue/compiler-sfc@3.4.27)(vite@5.2.11)
+    specifier: 0.32.2
+    version: 0.32.2(@vue/compiler-sfc@3.4.27)(vite@5.2.11)(vue-router@4.3.2)
   vite-plugin-pwa:
     specifier: 0.14.5
     version: 0.14.5(vite@5.2.11)(workbox-build@6.6.0)(workbox-window@6.6.0)
@@ -6999,18 +6999,9 @@ packages:
     resolution: {integrity: sha512-i/Ykufi2t1EZ6NaPLdfnZk2AX8cs0d+mTzVKuPfqPKPatxLApaBoxJQ9x1/uckXtrS/U5oisPMDkNs0yQTaBRg==}
     dependencies:
       acorn: 8.11.3
-      pathe: 1.1.1
-      pkg-types: 1.0.3
-      ufo: 1.3.1
-    dev: true
-
-  /mlly@1.5.0:
-    resolution: {integrity: sha512-NPVQvAY1xr1QoVeG0cy8yUYC7FQcOx6evl/RjT1wL5FvzPnzOysoqB/jmx/DhssT2dYa8nxECLAaFI/+gVLhDQ==}
-    dependencies:
-      acorn: 8.11.3
       pathe: 1.1.2
-      pkg-types: 1.0.3
-      ufo: 1.3.2
+      pkg-types: 1.1.0
+      ufo: 1.3.1
     dev: true
 
   /mlly@1.7.0:
@@ -7382,6 +7373,10 @@ packages:
   /picocolors@1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
 
+  /picocolors@1.0.1:
+    resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
+    dev: true
+
   /picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
@@ -7414,7 +7409,7 @@ packages:
     resolution: {integrity: sha512-nN7pYi0AQqJnoLPC9eHFQ8AcyaixBUOwvqc5TDnIKCMEE6I0y8P7OKA7fPexsXGCGxQDl/cmrLAp26LhcwxZ4A==}
     dependencies:
       jsonc-parser: 3.2.0
-      mlly: 1.5.0
+      mlly: 1.7.0
       pathe: 1.1.2
     dev: true
 
@@ -8585,10 +8580,6 @@ packages:
     resolution: {integrity: sha512-uY/99gMLIOlJPwATcMVYfqDSxUR9//AUcgZMzwfSTJPDKzA1S8mX4VLqa+fiAtveraQUBCz4FFcwVZBGbwBXIw==}
     dev: true
 
-  /ufo@1.3.2:
-    resolution: {integrity: sha512-o+ORpgGwaYQXgqGDwd+hkS4PuZ3QnmqMMxRuajK/a38L6fTpcE5GPIfrf+L/KemFzfUpeUQc1rRS1iDBozvnFA==}
-    dev: true
-
   /ufo@1.5.3:
     resolution: {integrity: sha512-Y7HYmWaFwPUmkoQCUIAYpKqkOf+SbVj/2fJJZ4RJMCfZp0rTGwRbzQD+HghfnhKOjL9E01okqz+ncJskGYfBNw==}
     dev: true
@@ -8918,13 +8909,22 @@ packages:
       - vue
     dev: true
 
-  /vite-plugin-pages@0.32.1(@vue/compiler-sfc@3.4.27)(vite@5.2.11):
-    resolution: {integrity: sha512-4oPlIbb+J+zpJGfT2xI/27xqY+qTkRc3MBgWKfbW6IWM3CTcSyybuL9kRMCFRdBHfmgkF28qDs7fqVf/HjH1Xw==}
+  /vite-plugin-pages@0.32.2(@vue/compiler-sfc@3.4.27)(vite@5.2.11)(vue-router@4.3.2):
+    resolution: {integrity: sha512-wX4lRlylcTggwHUH7bV1SVJpQMz4ZUkbzzAbbBBH5M7c/9Yx5rAqrjYELIca6vLCoCpSd+r6/WI7KnvRK/Drcg==}
     peerDependencies:
+      '@solidjs/router': '*'
       '@vue/compiler-sfc': ^2.7.0 || ^3.0.0
+      react-router: '*'
       vite: ^2.0.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0
+      vue-router: '*'
     peerDependenciesMeta:
+      '@solidjs/router':
+        optional: true
       '@vue/compiler-sfc':
+        optional: true
+      react-router:
+        optional: true
+      vue-router:
         optional: true
     dependencies:
       '@types/debug': 4.1.12
@@ -8935,9 +8935,10 @@ packages:
       fast-glob: 3.3.2
       json5: 2.2.3
       local-pkg: 0.5.0
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       vite: 5.2.11
-      yaml: 2.4.1
+      vue-router: 4.3.2(vue@3.4.27)
+      yaml: 2.4.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -9601,7 +9602,7 @@ packages:
     dependencies:
       eslint-visitor-keys: 3.4.3
       lodash: 4.17.21
-      yaml: 2.3.4
+      yaml: 2.4.1
     dev: true
 
   /yaml@1.10.2:
@@ -9609,13 +9610,14 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /yaml@2.3.4:
-    resolution: {integrity: sha512-8aAvwVUSHpfEqTQ4w/KMlf3HcRdt50E5ODIQJBw1fQ5RL34xabzxtUlzTXVqc4rkZsPbvrXKWnABCD7kWSmocA==}
-    engines: {node: '>= 14'}
-    dev: true
-
   /yaml@2.4.1:
     resolution: {integrity: sha512-pIXzoImaqmfOrL7teGUBt/T7ZDnyeGBWyXQBvOVhLkWLN37GXv8NMLK406UY6dS51JfcQHsmcW5cJ441bHg6Lg==}
+    engines: {node: '>= 14'}
+    hasBin: true
+    dev: true
+
+  /yaml@2.4.2:
+    resolution: {integrity: sha512-B3VqDZ+JAg1nZpaEmWtTXUlBneoGx6CPM9b0TENK6aoSu5t73dItudwdgmi6tHlIZZId4dZ9skcAQ2UbcyAeVA==}
     engines: {node: '>= 14'}
     hasBin: true
     dev: true

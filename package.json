@@ -43,7 +43,7 @@
         "unplugin-vue-components": "0.27.0",
         "vite": "5.2.11",
         "vite-plugin-md": "0.14.1",
-        "vite-plugin-pages": "0.32.1",
+        "vite-plugin-pages": "0.32.2",
         "vite-plugin-pwa": "0.14.5",
         "vite-plugin-vue-layouts": "0.11.0",
         "vite-plugin-windicss": "1.9.3",
