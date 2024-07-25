@@ -24,8 +24,8 @@ dependencies:
     specifier: 3.4.27
     version: 3.4.27(typescript@5.4.5)
   vue-demi:
-    specifier: 0.14.6
-    version: 0.14.6(vue@3.4.27)
+    specifier: 0.14.10
+    version: 0.14.10(vue@3.4.27)
   vue-i18n:
     specifier: 9.10.1
     version: 9.10.1(vue@3.4.27)
@@ -2059,8 +2059,8 @@ packages:
       vue-i18n:
         optional: true
     dependencies:
-      '@intlify/message-compiler': 10.0.0-beta.4
-      '@intlify/shared': 10.0.0-beta.4
+      '@intlify/message-compiler': 10.0.0-beta.5
+      '@intlify/shared': 10.0.0-beta.5
       jsonc-eslint-parser: 1.4.1
       source-map: 0.6.1
       vue-i18n: 9.10.1(vue@3.4.27)
@@ -2074,11 +2074,11 @@ packages:
       '@intlify/message-compiler': 9.10.1
       '@intlify/shared': 9.10.1
 
-  /@intlify/message-compiler@10.0.0-beta.4:
-    resolution: {integrity: sha512-jMuRHSgUYJ6gPoDVo5AbGb89l6Ha4VLiBfr4W90ore/EKKAAH4j9a9a5fR5r086WHGc8kOiPRKRVnH6X+HcT2w==}
+  /@intlify/message-compiler@10.0.0-beta.5:
+    resolution: {integrity: sha512-hLLchnM1dmtSEruerkzvU9vePsLqBXz3RU85SCx/Vd12fFQiymP+/5Rn9MJ8MyfLmIOLDEx4PRh+/GkIQP6oog==}
     engines: {node: '>= 16'}
     dependencies:
-      '@intlify/shared': 10.0.0-beta.4
+      '@intlify/shared': 10.0.0-beta.5
       source-map-js: 1.2.0
     dev: true
 
@@ -2089,8 +2089,8 @@ packages:
       '@intlify/shared': 9.10.1
       source-map-js: 1.2.0
 
-  /@intlify/shared@10.0.0-beta.4:
-    resolution: {integrity: sha512-DBNuWRMmVRXDGb/4eJnMMT52yXg+LTM3No5xybvN4CCnrelnt76AagwmgsyRQybopThrqUk0cK/2zAmeIaukyA==}
+  /@intlify/shared@10.0.0-beta.5:
+    resolution: {integrity: sha512-g9bq5Y1bOcC9qxtNk4UWtF3sXm6Wh0fGISb7vD5aLyF7yQv7ZFjxQjJzBP2GqG/9+PAGYutqjP1GGadNqFtyAQ==}
     engines: {node: '>= 16'}
     dev: true
 
@@ -2115,7 +2115,7 @@ packages:
         optional: true
     dependencies:
       '@intlify/bundle-utils': 3.4.0(vue-i18n@9.10.1)
-      '@intlify/shared': 10.0.0-beta.4
+      '@intlify/shared': 10.0.0-beta.5
       '@rollup/pluginutils': 4.2.1
       debug: 4.3.4
       fast-glob: 3.3.2
@@ -3228,7 +3228,7 @@ packages:
       '@types/web-bluetooth': 0.0.20
       '@vueuse/metadata': 10.10.0
       '@vueuse/shared': 10.10.0(vue@3.4.27)
-      vue-demi: 0.14.7(vue@3.4.27)
+      vue-demi: 0.14.10(vue@3.4.27)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -3248,7 +3248,7 @@ packages:
       '@vueuse/metadata': 8.9.4
       '@vueuse/shared': 8.9.4(vue@3.4.27)
       vue: 3.4.27(typescript@5.4.5)
-      vue-demi: 0.14.6(vue@3.4.27)
+      vue-demi: 0.14.10(vue@3.4.27)
     dev: true
 
   /@vueuse/head@2.0.0(vue@3.4.27):
@@ -3273,7 +3273,7 @@ packages:
   /@vueuse/shared@10.10.0(vue@3.4.27):
     resolution: {integrity: sha512-2aW33Ac0Uk0U+9yo3Ypg9s5KcR42cuehRWl7vnUHadQyFvCktseyxxEPBi1Eiq4D2yBGACOnqLZpx1eMc7g5Og==}
     dependencies:
-      vue-demi: 0.14.7(vue@3.4.27)
+      vue-demi: 0.14.10(vue@3.4.27)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -3290,7 +3290,7 @@ packages:
         optional: true
     dependencies:
       vue: 3.4.27(typescript@5.4.5)
-      vue-demi: 0.14.6(vue@3.4.27)
+      vue-demi: 0.14.10(vue@3.4.27)
     dev: true
 
   /@windicss/config@1.9.3:
@@ -7379,7 +7379,7 @@ packages:
       '@vue/devtools-api': 6.5.0
       typescript: 5.4.5
       vue: 3.4.27(typescript@5.4.5)
-      vue-demi: 0.14.6(vue@3.4.27)
+      vue-demi: 0.14.10(vue@3.4.27)
     dev: false
 
   /pkg-types@1.0.3:
@@ -9126,22 +9126,8 @@ packages:
       - terser
     dev: true
 
-  /vue-demi@0.14.6(vue@3.4.27):
-    resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
-    engines: {node: '>=12'}
-    hasBin: true
-    requiresBuild: true
-    peerDependencies:
-      '@vue/composition-api': ^1.0.0-rc.1
-      vue: ^3.0.0-0 || ^2.6.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
-    dependencies:
-      vue: 3.4.27(typescript@5.4.5)
-
-  /vue-demi@0.14.7(vue@3.4.27):
-    resolution: {integrity: sha512-EOG8KXDQNwkJILkx/gPcoL/7vH+hORoBaKgGe+6W7VFMvCYJfmF2dGbvgDroVnI8LU7/kTu8mbjRZGBU1z9NTA==}
+  /vue-demi@0.14.10(vue@3.4.27):
+    resolution: {integrity: sha512-nMZBOwuzabUO0nLgIcc6rycZEebF6eeUfaiQx9+WSk8e29IbLvPU9feI6tqW4kTo3hvoYAJkMh8n8D0fuISphg==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
