@@ -38,8 +38,8 @@ devDependencies:
     specifier: 2.6.3
     version: 2.6.3(@vue/compiler-sfc@3.4.27)(eslint@9.3.0)(typescript@5.4.5)
   '@iconify/json':
-    specifier: 2.2.228
-    version: 2.2.228
+    specifier: 2.2.231
+    version: 2.2.231
   '@intlify/vite-plugin-vue-i18n':
     specifier: 7.0.0
     version: 7.0.0(vite@5.3.1)(vue-i18n@9.10.1)
@@ -2022,8 +2022,8 @@ packages:
     engines: {node: '>=18.18'}
     dev: true
 
-  /@iconify/json@2.2.228:
-    resolution: {integrity: sha512-Xd1CgQ1bCFLrp4t+J2TU+AXM+kVHAFLfhK9FcZD54aMPlzENdQMJ5JhfFzCgnsLBAIW1PbSY2Edbm4tt2Tw9Lg==}
+  /@iconify/json@2.2.231:
+    resolution: {integrity: sha512-+KlOkI3CuwSuG8H3EIeC7f5LTsm73aggoh1GA9Uh4YCl65zvTgYyFwCxJXnR2vVeCoAlO2UtCtjHjNwOWchf4g==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
@@ -2059,8 +2059,8 @@ packages:
       vue-i18n:
         optional: true
     dependencies:
-      '@intlify/message-compiler': 10.0.0-beta.4
-      '@intlify/shared': 10.0.0-beta.4
+      '@intlify/message-compiler': 10.0.0-beta.5
+      '@intlify/shared': 10.0.0-beta.5
       jsonc-eslint-parser: 1.4.1
       source-map: 0.6.1
       vue-i18n: 9.10.1(vue@3.4.27)
@@ -2074,11 +2074,11 @@ packages:
       '@intlify/message-compiler': 9.10.1
       '@intlify/shared': 9.10.1
 
-  /@intlify/message-compiler@10.0.0-beta.4:
-    resolution: {integrity: sha512-jMuRHSgUYJ6gPoDVo5AbGb89l6Ha4VLiBfr4W90ore/EKKAAH4j9a9a5fR5r086WHGc8kOiPRKRVnH6X+HcT2w==}
+  /@intlify/message-compiler@10.0.0-beta.5:
+    resolution: {integrity: sha512-hLLchnM1dmtSEruerkzvU9vePsLqBXz3RU85SCx/Vd12fFQiymP+/5Rn9MJ8MyfLmIOLDEx4PRh+/GkIQP6oog==}
     engines: {node: '>= 16'}
     dependencies:
-      '@intlify/shared': 10.0.0-beta.4
+      '@intlify/shared': 10.0.0-beta.5
       source-map-js: 1.2.0
     dev: true
 
@@ -2089,8 +2089,8 @@ packages:
       '@intlify/shared': 9.10.1
       source-map-js: 1.2.0
 
-  /@intlify/shared@10.0.0-beta.4:
-    resolution: {integrity: sha512-DBNuWRMmVRXDGb/4eJnMMT52yXg+LTM3No5xybvN4CCnrelnt76AagwmgsyRQybopThrqUk0cK/2zAmeIaukyA==}
+  /@intlify/shared@10.0.0-beta.5:
+    resolution: {integrity: sha512-g9bq5Y1bOcC9qxtNk4UWtF3sXm6Wh0fGISb7vD5aLyF7yQv7ZFjxQjJzBP2GqG/9+PAGYutqjP1GGadNqFtyAQ==}
     engines: {node: '>= 16'}
     dev: true
 
@@ -2115,7 +2115,7 @@ packages:
         optional: true
     dependencies:
       '@intlify/bundle-utils': 3.4.0(vue-i18n@9.10.1)
-      '@intlify/shared': 10.0.0-beta.4
+      '@intlify/shared': 10.0.0-beta.5
       '@rollup/pluginutils': 4.2.1
       debug: 4.3.4
       fast-glob: 3.3.2
