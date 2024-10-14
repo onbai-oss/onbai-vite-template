@@ -68,8 +68,8 @@ devDependencies:
     specifier: 1.0.2
     version: 1.0.2
   critters:
-    specifier: 0.0.24
-    version: 0.0.24
+    specifier: 0.0.25
+    version: 0.0.25
   cross-env:
     specifier: 7.0.3
     version: 7.0.3
@@ -117,7 +117,7 @@ devDependencies:
     version: 1.9.3(vite@5.3.5)
   vite-ssg:
     specifier: 0.23.3
-    version: 0.23.3(critters@0.0.24)(vite@5.3.5)(vue-router@4.4.5)(vue@3.4.38)
+    version: 0.23.3(critters@0.0.25)(vite@5.3.5)(vue-router@4.4.5)(vue@3.4.38)
   vue-tsc:
     specifier: 2.0.29
     version: 2.0.29(typescript@5.6.3)
@@ -4170,15 +4170,15 @@ packages:
       vary: 1.1.2
     dev: true
 
-  /critters@0.0.24:
-    resolution: {integrity: sha512-Oyqew0FGM0wYUSNqR0L6AteO5MpMoUU0rhKRieXeiKs+PmRTxiJMyaunYB2KF6fQ3dzChXKCpbFOEJx3OQ1v/Q==}
+  /critters@0.0.25:
+    resolution: {integrity: sha512-ROF/tjJyyRdM8/6W0VqoN5Ql05xAGnkf5b7f3sTEl1bI5jTQQf8O918RD/V9tEb9pRY/TKcvJekDbJtniHyPtQ==}
     dependencies:
       chalk: 4.1.2
       css-select: 5.1.0
       dom-serializer: 2.0.0
       domhandler: 5.0.3
       htmlparser2: 8.0.2
-      postcss: 8.4.38
+      postcss: 8.4.40
       postcss-media-query-parser: 0.2.3
     dev: true
 
@@ -7448,15 +7448,6 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /postcss@8.4.38:
-    resolution: {integrity: sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.7
-      picocolors: 1.0.1
-      source-map-js: 1.2.0
-    dev: true
-
   /postcss@8.4.40:
     resolution: {integrity: sha512-YF2kKIUzAofPMpfH6hOi2cGnv/HrUlfucspc7pDyvv7kGdqXrfj8SCl/t8owkEgKEuu8ZcRjSOxFxVLqwChZ2Q==}
     engines: {node: ^10 || ^12 || >=14}
@@ -8981,7 +8972,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-ssg@0.23.3(critters@0.0.24)(vite@5.3.5)(vue-router@4.4.5)(vue@3.4.38):
+  /vite-ssg@0.23.3(critters@0.0.25)(vite@5.3.5)(vue-router@4.4.5)(vue@3.4.38):
     resolution: {integrity: sha512-SinJROcjl3/wvfB9fTMFjcGnDj42AOaYG4FAPz4FVnazX87qgb1U+q87JrgzLz2PiYKAacPYBMQSHTIjvsnJyw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -8998,7 +8989,7 @@ packages:
     dependencies:
       '@unhead/dom': 1.7.4
       '@unhead/vue': 1.7.4(vue@3.4.38)
-      critters: 0.0.24
+      critters: 0.0.25
       fs-extra: 11.1.1
       html-minifier: 4.0.0
       html5parser: 2.0.2
