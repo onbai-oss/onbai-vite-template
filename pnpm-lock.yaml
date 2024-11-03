@@ -38,8 +38,8 @@ devDependencies:
     specifier: 2.6.3
     version: 2.6.3(@vue/compiler-sfc@3.4.38)(eslint@9.13.0)(typescript@5.6.3)
   '@iconify/json':
-    specifier: 2.2.266
-    version: 2.2.266
+    specifier: 2.2.267
+    version: 2.2.267
   '@intlify/vite-plugin-vue-i18n':
     specifier: 7.0.0
     version: 7.0.0(vite@5.3.5)(vue-i18n@9.10.1)
@@ -2077,8 +2077,8 @@ packages:
     engines: {node: '>=18.18'}
     dev: true
 
-  /@iconify/json@2.2.266:
-    resolution: {integrity: sha512-lv+lmPjhDh5/sCaom8AX39USmneRMcQRT/SKoDsxizOjVKycZ8PRk7kNKi776YkKzuksb0Xv5Tfi/Mrr3YLQgQ==}
+  /@iconify/json@2.2.267:
+    resolution: {integrity: sha512-mM+W8HES8J78wNFRWimpfT+D2YhLzZ9AKD/PiDqiW/QsMmROa2iK0Bx+RwTYYWosmRCzPXPH9y08X4VgfkqZuw==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
