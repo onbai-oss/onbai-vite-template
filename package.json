@@ -27,7 +27,7 @@
         "@types/nprogress": "0.2.3",
         "@typescript-eslint/eslint-plugin": "6.7.5",
         "@typescript-eslint/parser": "6.7.5",
-        "@vitejs/plugin-vue": "5.2.0",
+        "@vitejs/plugin-vue": "5.2.1",
         "@vue/compiler-sfc": "3.4.38",
         "@vue/server-renderer": "3.4.38",
         "@windicss/plugin-icons": "1.0.2",
