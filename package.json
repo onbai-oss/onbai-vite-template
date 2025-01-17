@@ -33,7 +33,7 @@
         "@windicss/plugin-icons": "1.0.2",
         "critters": "0.0.25",
         "cross-env": "7.0.3",
-        "eslint": "9.17.0",
+        "eslint": "9.18.0",
         "https-localhost": "4.7.1",
         "markdown-it-link-attributes": "4.0.1",
         "markdown-it-prism": "2.3.0",
