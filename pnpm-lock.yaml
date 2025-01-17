@@ -24,8 +24,8 @@ dependencies:
     specifier: 3.4.38
     version: 3.4.38(typescript@5.7.3)
   vue-demi:
-    specifier: 0.14.6
-    version: 0.14.6(vue@3.4.38)
+    specifier: 0.14.10
+    version: 0.14.10(vue@3.4.38)
   vue-i18n:
     specifier: 9.10.1
     version: 9.10.1(vue@3.4.38)
@@ -3362,7 +3362,7 @@ packages:
       '@vueuse/metadata': 8.9.4
       '@vueuse/shared': 8.9.4(vue@3.4.38)
       vue: 3.4.38(typescript@5.7.3)
-      vue-demi: 0.14.6(vue@3.4.38)
+      vue-demi: 0.14.10(vue@3.4.38)
     dev: true
 
   /@vueuse/head@2.0.0(vue@3.4.38):
@@ -3404,7 +3404,7 @@ packages:
         optional: true
     dependencies:
       vue: 3.4.38(typescript@5.7.3)
-      vue-demi: 0.14.6(vue@3.4.38)
+      vue-demi: 0.14.10(vue@3.4.38)
     dev: true
 
   /@windicss/config@1.9.4:
@@ -9260,20 +9260,6 @@ packages:
 
   /vue-demi@0.14.10(vue@3.4.38):
     resolution: {integrity: sha512-nMZBOwuzabUO0nLgIcc6rycZEebF6eeUfaiQx9+WSk8e29IbLvPU9feI6tqW4kTo3hvoYAJkMh8n8D0fuISphg==}
-    engines: {node: '>=12'}
-    hasBin: true
-    requiresBuild: true
-    peerDependencies:
-      '@vue/composition-api': ^1.0.0-rc.1
-      vue: ^3.0.0-0 || ^2.6.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
-    dependencies:
-      vue: 3.4.38(typescript@5.7.3)
-
-  /vue-demi@0.14.6(vue@3.4.38):
-    resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
