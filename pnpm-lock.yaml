@@ -95,8 +95,8 @@ devDependencies:
     specifier: 0.22.0
     version: 0.22.0(@vue/compiler-sfc@3.4.38)
   unplugin-vue-components:
-    specifier: 0.27.5
-    version: 0.27.5(rollup@2.79.1)(vue@3.4.38)
+    specifier: 0.28.0
+    version: 0.28.0(rollup@2.79.1)(vue@3.4.38)
   vite:
     specifier: 5.3.5
     version: 5.3.5
@@ -289,7 +289,7 @@ packages:
       '@babel/traverse': 7.22.5
       '@babel/types': 7.25.2
       convert-source-map: 1.9.0
-      debug: 4.4.0
+      debug: 4.4.0(supports-color@8.1.1)
       gensync: 1.0.0-beta.2
       json5: 2.2.3
       semver: 6.3.0
@@ -375,7 +375,7 @@ packages:
       '@babel/core': 7.22.5
       '@babel/helper-compilation-targets': 7.22.5(@babel/core@7.22.5)
       '@babel/helper-plugin-utils': 7.22.5
-      debug: 4.4.0
+      debug: 4.4.0(supports-color@8.1.1)
       lodash.debounce: 4.0.8
       resolve: 1.22.8
       semver: 6.3.0
@@ -1469,7 +1469,7 @@ packages:
       '@babel/helper-split-export-declaration': 7.22.5
       '@babel/parser': 7.25.3
       '@babel/types': 7.25.2
-      debug: 4.4.0
+      debug: 4.4.0(supports-color@8.1.1)
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
@@ -2010,7 +2010,7 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       ajv: 6.12.6
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       espree: 9.6.1
       globals: 13.24.0
       ignore: 5.2.4
@@ -2102,7 +2102,7 @@ packages:
       '@antfu/install-pkg': 0.4.1
       '@antfu/utils': 0.7.10
       '@iconify/types': 2.0.0
-      debug: 4.4.0
+      debug: 4.4.0(supports-color@8.1.1)
       globals: 15.14.0
       kolorist: 1.8.0
       local-pkg: 0.5.1
@@ -2382,8 +2382,8 @@ packages:
       rollup: 3.25.1
     dev: true
 
-  /@rollup/pluginutils@5.1.3(rollup@2.79.1):
-    resolution: {integrity: sha512-Pnsb6f32CD2W3uCaLZIzDmeFyQ2b8UWMFI7xtwUezpcGBDVDW6y9XgAWIlARiGAo6eNF5FK5aQTr0LFyNyqq5A==}
+  /@rollup/pluginutils@5.1.4(rollup@2.79.1):
+    resolution: {integrity: sha512-USm05zrsFxYLPdWWq+K3STlWiT/3ELn3RcV5hJMghpeAIhxfsUIg6mt12CBJBInWMV4VneoV7SfGv8xIwo2qNQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
@@ -2783,7 +2783,7 @@ packages:
       '@typescript-eslint/type-utils': 6.19.0(eslint@9.18.0)(typescript@5.7.3)
       '@typescript-eslint/utils': 6.19.0(eslint@9.18.0)(typescript@5.7.3)
       '@typescript-eslint/visitor-keys': 6.19.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       eslint: 9.18.0
       graphemer: 1.4.0
       ignore: 5.2.4
@@ -2838,7 +2838,7 @@ packages:
       '@typescript-eslint/types': 6.19.0
       '@typescript-eslint/typescript-estree': 6.19.0(typescript@5.7.3)
       '@typescript-eslint/visitor-keys': 6.19.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       eslint: 9.18.0
       typescript: 5.7.3
     transitivePeerDependencies:
@@ -2902,7 +2902,7 @@ packages:
     dependencies:
       '@typescript-eslint/typescript-estree': 6.19.0(typescript@5.7.3)
       '@typescript-eslint/utils': 6.19.0(eslint@9.18.0)(typescript@5.7.3)
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       eslint: 9.18.0
       ts-api-utils: 1.0.1(typescript@5.7.3)
       typescript: 5.7.3
@@ -2956,7 +2956,7 @@ packages:
     dependencies:
       '@typescript-eslint/types': 6.18.0
       '@typescript-eslint/visitor-keys': 6.18.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.3
@@ -2978,7 +2978,7 @@ packages:
     dependencies:
       '@typescript-eslint/types': 6.19.0
       '@typescript-eslint/visitor-keys': 6.19.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.3
@@ -3512,7 +3512,7 @@ packages:
     resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==}
     engines: {node: '>= 6.0.0'}
     dependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4413,7 +4413,7 @@ packages:
       supports-color: 8.1.1
     dev: true
 
-  /debug@4.4.0:
+  /debug@4.4.0(supports-color@8.1.1):
     resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}
     engines: {node: '>=6.0'}
     peerDependencies:
@@ -4423,6 +4423,7 @@ packages:
         optional: true
     dependencies:
       ms: 2.1.3
+      supports-color: 8.1.1
     dev: true
 
   /decimal.js@10.4.3:
@@ -5060,7 +5061,7 @@ packages:
     peerDependencies:
       eslint: ^7.2.0 || ^8
     dependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       doctrine: 3.0.0
       eslint: 9.18.0
       eslint-import-resolver-node: 0.3.9
@@ -5085,7 +5086,7 @@ packages:
       '@es-joy/jsdoccomment': 0.41.0
       are-docs-informative: 0.0.2
       comment-parser: 1.4.1
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       escape-string-regexp: 4.0.0
       eslint: 9.18.0
       esquery: 1.5.0
@@ -5182,7 +5183,7 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       eslint: 9.18.0
       eslint-compat-utils: 0.4.1(eslint@9.18.0)
       lodash: 4.17.21
@@ -5278,7 +5279,7 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       eslint: 9.18.0
       eslint-compat-utils: 0.4.1(eslint@9.18.0)
       lodash: 4.17.21
@@ -5569,7 +5570,7 @@ packages:
     engines: {node: '>= 10.17.0'}
     hasBin: true
     dependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       get-stream: 5.2.0
       yauzl: 2.10.0
     optionalDependencies:
@@ -6911,6 +6912,12 @@ packages:
       '@jridgewell/sourcemap-codec': 1.5.0
     dev: true
 
+  /magic-string@0.30.17:
+    resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.5.0
+    dev: true
+
   /markdown-it-link-attributes@4.0.1:
     resolution: {integrity: sha512-pg5OK0jPLg62H4k7M9mRJLT61gUp9nvG0XveKYHMOOluASo9OEF13WlXrpAp2aj35LbedAy3QOCgQCw0tkLKAQ==}
     dev: true
@@ -6979,7 +6986,7 @@ packages:
   /micromark@2.11.4:
     resolution: {integrity: sha512-+WoovN/ppKolQOFIAajxi7Lu9kInbPxFuTBVEavFcL8eAfVstoc5MocPmqBeAdBOJV00uaVjegzH4+MA0DN/uA==}
     dependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       parse-entities: 2.0.0
     transitivePeerDependencies:
       - supports-color
@@ -8812,7 +8819,7 @@ packages:
       '@antfu/utils': 0.7.10
       '@iconify/utils': 2.2.1
       '@vue/compiler-sfc': 3.4.38
-      debug: 4.4.0
+      debug: 4.4.0(supports-color@8.1.1)
       kolorist: 1.8.0
       local-pkg: 0.5.1
       unplugin: 2.1.2
@@ -8820,8 +8827,8 @@ packages:
       - supports-color
     dev: true
 
-  /unplugin-vue-components@0.27.5(rollup@2.79.1)(vue@3.4.38):
-    resolution: {integrity: sha512-m9j4goBeNwXyNN8oZHHxvIIYiG8FQ9UfmKWeNllpDvhU7btKNNELGPt+o3mckQKuPwrE7e0PvCsx+IWuDSD9Vg==}
+  /unplugin-vue-components@0.28.0(rollup@2.79.1)(vue@3.4.38):
+    resolution: {integrity: sha512-jiTGtJ3JsRFBjgvyilfrX7yUoGKScFgbdNw+6p6kEXU+Spf/rhxzgvdfuMcvhCcLmflB/dY3pGQshYBVGOUx7Q==}
     engines: {node: '>=14'}
     peerDependencies:
       '@babel/parser': ^7.15.8
@@ -8834,15 +8841,15 @@ packages:
         optional: true
     dependencies:
       '@antfu/utils': 0.7.10
-      '@rollup/pluginutils': 5.1.3(rollup@2.79.1)
+      '@rollup/pluginutils': 5.1.4(rollup@2.79.1)
       chokidar: 3.6.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       fast-glob: 3.3.2
       local-pkg: 0.5.1
-      magic-string: 0.30.14
+      magic-string: 0.30.17
       minimatch: 9.0.5
       mlly: 1.7.3
-      unplugin: 1.16.0
+      unplugin: 2.1.2
       vue: 3.4.38(typescript@5.7.3)
     transitivePeerDependencies:
       - rollup
@@ -8856,14 +8863,6 @@ packages:
       acorn: 8.14.0
       chokidar: 3.6.0
       webpack-sources: 3.2.3
-      webpack-virtual-modules: 0.6.2
-    dev: true
-
-  /unplugin@1.16.0:
-    resolution: {integrity: sha512-5liCNPuJW8dqh3+DM6uNM2EI3MLLpCKp/KY+9pB5M2S2SR2qvvDHhKgBOaTWEbZTAws3CXfB0rKTIolWKL05VQ==}
-    engines: {node: '>=14.0.0'}
-    dependencies:
-      acorn: 8.14.0
       webpack-virtual-modules: 0.6.2
     dev: true
 
@@ -9233,7 +9232,7 @@ packages:
       acorn: 8.14.0
       acorn-walk: 8.2.0
       chai: 4.3.7
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       happy-dom: 4.1.0
       local-pkg: 0.4.3
       source-map: 0.6.1
@@ -9289,7 +9288,7 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       eslint: 9.18.0
       eslint-scope: 7.2.2
       eslint-visitor-keys: 3.4.3
