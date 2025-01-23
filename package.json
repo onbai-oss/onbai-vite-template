@@ -20,7 +20,7 @@
         "vue-router": "4.4.5"
     },
     "devDependencies": {
-        "@antfu/eslint-config": "2.6.3",
+        "@antfu/eslint-config": "2.27.3",
         "@iconify/json": "2.2.298",
         "@intlify/vite-plugin-vue-i18n": "7.0.0",
         "@types/markdown-it-link-attributes": "3.0.5",
