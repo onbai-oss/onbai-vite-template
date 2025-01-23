@@ -15,8 +15,8 @@ dependencies:
     specifier: 0.2.0
     version: 0.2.0
   pinia:
-    specifier: 2.2.5
-    version: 2.2.5(typescript@5.7.3)(vue@3.4.38)
+    specifier: 2.3.1
+    version: 2.3.1(typescript@5.7.3)(vue@3.4.38)
   prism-theme-vars:
     specifier: 0.2.5
     version: 0.2.5
@@ -7486,15 +7486,12 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /pinia@2.2.5(typescript@5.7.3)(vue@3.4.38):
-    resolution: {integrity: sha512-T4PEQ4uFv2KIRC8A1Y3k1ceQGTDtxtd7nngYGu1IJUUSpuQoYfGq7w7rOc+f5YN1vx3mEs2NjjtN2IFbNS7jqA==}
+  /pinia@2.3.1(typescript@5.7.3)(vue@3.4.38):
+    resolution: {integrity: sha512-khUlZSwt9xXCaTbbxFYBKDc/bWAGWJjOgvxETwkTN7KRm66EeT1ZdZj6i2ceh9sP2Pzqsbc704r2yngBrxBVug==}
     peerDependencies:
-      '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
-      vue: ^2.6.14 || ^3.5.11
+      vue: ^2.7.0 || ^3.5.11
     peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
       typescript:
         optional: true
     dependencies:
@@ -7502,6 +7499,8 @@ packages:
       typescript: 5.7.3
       vue: 3.4.38(typescript@5.7.3)
       vue-demi: 0.14.10(vue@3.4.38)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
     dev: false
 
   /pkg-types@1.0.3:
